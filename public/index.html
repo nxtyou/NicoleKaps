@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Kaps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;800&family=Euphoria+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body class="font-barlow text-black sm:text-17 text-xs leading-17">
+    <div class="w-full h-screen bg-pink-light absolute top-0 -z-10 lg:block hidden"></div>
+    <nav class="lg:px-[3.125rem] px-6 mx-auto lg:pt-[4.4rem] pt-8 flex z-[500] lgx:container lg:static fixed top-0 left-0 right-0">
+        <div class="">
+            <img src="assets/logo.png" class="inline lg:w-[6.25rem]" width="40" height="20">
+            <span class="font-bold lg:text-[1.875rem] text-base align-middle lg:ml-4 ml-1 lg:hidden xl:inline">NICOLE KAPS</span>
+        </div>
+        <ul class="gap-3 text-lg items-center ml-auto mr-[2.75rem] lg:flex hidden">
+            <li><a href="#uber-mich">Über mich</a></li>
+            <li><a href="#">Angebote</a></li>
+            <li><a href="#">Ablauf</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Fakten</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+        <div class="items-center lg:flex hidden">
+            <a href="#"
+                class="p-button bg-pink-bold drop-shadow-button text-white font-bold text-sm rounded-30 tracking-[0.5px]">Erstgespräch
+                vereinbaren</a>
+        </div>
+        <button type="button" class="lg:hidden ml-auto relative" id="hamburger">
+            <svg width="28" height="18" viewBox="0 0 28 18" fill="none" class="transition-opacity">
+                <line x1="0.998047" y1="9" x2="27.6647" y2="9" stroke="#D9818E" stroke-width="2"/>
+                <line x1="0.998047" y1="1" x2="27.6647" y2="1" stroke="#D9818E" stroke-width="2"/>
+                <line x1="1" y1="17" x2="28" y2="17" stroke="#D9818E" stroke-width="2"/>
+            </svg>
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" class="opacity-0 transition-opacity absolute top-0 left-0">
+                <line x1="0.53033" y1="1.46991" x2="27.53" y2="28.4696" stroke="#D9818E" stroke-width="1.5"/>
+                <line x1="1.20502" y1="28.4694" x2="28.2047" y2="1.46977" stroke="#D9818E" stroke-width="1.5"/>
+            </svg>
+        </button>
+    </nav>
+    <div class="w-screen h-screen bg-white fixed top-0 opacity-0 pointer-events-none z-50 lg:hidden transition-opacity duration-300 ease-in-out" id="mobile-menu">
+        <div class="container px-6 mx-auto pt-24">
+            <ul class="space-y-[1.375rem] text-[2rem] font-bold tracking-[-0.02em] leading-12 mb-[2.125rem]">
+                <li><a href="#" class="text-pink-bold">Home</a></li>
+                <li><a href="#uber-mich">Über mich</a></li>
+                <li><a href="#">Angebote</a></li>
+                <li><a href="#">Ablauf</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Fakten</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+            <div class="flex justify-between max-w-[20rem] mx-auto text-sm leading-12 tracking-[2px]">
+                <div class="text-right space-y-2">
+                    <div>© 2023 Copyright</div>
+                    <div>All rights reserved</div>
+                </div>
+                <div class="font-bold space-y-2">
+                    <div><a href="#">Impressum</a></div>
+                    <div><a href="#">Datenschutz</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="lg:pt-[4.125rem] pt-[5.5rem] pb-10 px-4 container mx-auto">
+        <header class="text-center space-y-[0.875rem] mx-auto">
+            <h4 class="font-semibold md:text-xl text-xs">Individuelles Coaching mit Nicole Kaps</h4>
+            <h1 class="lg:text-[2rem] text-xl leading-12 font-extrabold uppercase max-w-5xl mx-auto">Sofort spürbare
+                Resultate MIT
+                EINER 1.000fach Erfolgs-erprobten FORMEL <span class="text-pink-bold">für mehr Selbstwert, mehr
+                    Gelassenheit, mehr Sichtbarkeit und Anerkennung</span></h1>
+            <h6 class="lg:text-xl text-xs px-4">Du bist geplagt von Ängsten, Zweifeln und Stress? Du fühlst dich nicht
+                gesehen und
+                anerkannt, fühlst dich unwohl mit dir und deinem Körper?</h6>
+        </header>
+        <div class="pb-[51.28%] relative sm:mt-8 mt-4">
+            <video poster="assets/poster.jpg" class="absolute w-full h-full rounded-20 object-cover top-0 left-0" src="https://cdn.jsdelivr.net/gh/bilgicbe/stefaniejahn-files@main/landingpagevideo.mp4?raw=true" playsinline></video>
+            <svg width="129" height="129" viewBox="0 0 129 129" fill="none" xmlns="http://www.w3.org/2000/svg" id="play-button"
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer lg:w-32 md:w-28 sm:w-20 w-[2.35rem]">
+                <circle cx="64.5" cy="64.5" r="64.5" fill="#D9818E" />
+                <path
+                    d="M46.8981 98.0626C45.7948 98.0605 44.7111 97.7713 43.7536 97.2234C41.5973 96.0016 40.2568 93.6297 40.2568 91.0548V38.9454C40.2568 36.3633 41.5973 33.9986 43.7536 32.7767C44.7339 32.2133 45.8477 31.9235 46.9783 31.9378C48.109 31.952 49.2151 32.2697 50.181 32.8576L94.7165 59.516C95.6447 60.098 96.4098 60.9062 96.9402 61.8648C97.4706 62.8234 97.7488 63.9009 97.7488 64.9965C97.7488 66.092 97.4706 67.1696 96.9402 68.1282C96.4098 69.0868 95.6447 69.895 94.7165 70.477L50.1738 97.1426C49.1853 97.7402 48.0531 98.0581 46.8981 98.0626Z"
+                    fill="white" />
+            </svg>
+        </div>
+        <div class="sm:mt-[3.75rem] mt-4">
+            <a href="#"
+                class="bg-pink-bold drop-shadow-button py-4 rounded-30 flex justify-center w-full sm:max-w-[35rem] max-w-sm mx-auto">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="align-middle inline sm:w-[26px] sm:h-[26px] w-[19px] h-[19px]">
+                    <path
+                        d="M8.14216 9.64049C8.28893 9.45272 8.43632 9.26545 8.58433 9.07878C8.96211 8.60049 9.35262 8.10582 9.72055 7.60673C10.1958 6.9615 10.1634 6.66369 9.55573 6.09098C9.50519 6.04347 9.45186 5.99881 9.39843 5.95435C9.35742 5.91984 9.31558 5.88529 9.27539 5.84915L8.7999 5.41905C8.34285 5.0057 7.87021 4.57825 7.40928 4.15414C7.05904 3.83194 6.71015 3.50851 6.36259 3.18378C5.89836 2.75178 5.41834 2.30492 4.94142 1.87046C4.40818 1.38398 4.1029 1.38481 3.58217 1.87396C3.08606 2.33986 2.58512 2.8171 2.10069 3.27849C1.66754 3.6911 1.23363 4.10287 0.798979 4.51391C0.608266 4.69124 0.456424 4.90622 0.353033 5.14512C0.249642 5.384 0.196944 5.6417 0.198266 5.90196C0.201956 6.31054 0.253822 6.71728 0.352802 7.11375C0.604345 8.19558 1.14404 9.16561 1.66611 10.1043L1.79532 10.3371C3.14973 12.783 4.61532 14.7343 6.27707 16.3027C6.5847 16.5928 6.87593 16.9139 7.15792 17.2244C7.53389 17.6579 7.93914 18.065 8.37083 18.4431C9.63542 19.4995 11.0234 20.5724 12.6138 21.7236C13.923 22.6711 15.0749 23.3568 16.2376 23.8817C17.0877 24.2776 18.0131 24.4867 18.9511 24.4948C19.3529 24.4948 19.7536 24.4539 20.1471 24.373L20.2093 24.3604C20.8068 24.2384 21.4248 24.1122 21.9448 23.6962C22.2029 23.4897 22.4846 23.2999 22.757 23.1163C22.8998 23.0201 23.0426 22.9237 23.1831 22.8246C23.309 22.736 23.4377 22.6505 23.5666 22.5649C23.8845 22.3658 24.1859 22.1416 24.4677 21.894C25.2477 21.1706 25.0843 20.6698 24.5383 20.0488C23.9415 19.3699 23.3591 18.6568 22.795 17.9675C22.5707 17.6929 22.3457 17.4188 22.1204 17.1451C21.9432 16.9307 21.7671 16.7154 21.5919 16.4991C21.2536 16.0832 20.9038 15.6531 20.547 15.2402C19.8686 14.4554 19.5813 14.4302 18.7393 15.0816C18.1573 15.5323 17.5703 15.9951 17.0018 16.4431C16.6438 16.7252 16.2855 17.007 15.9267 17.2884C15.8188 17.3729 15.7057 17.4515 15.5963 17.5274L15.5278 17.575C15.3086 17.3462 15.0898 17.1175 14.8715 16.8888C12.6463 14.5628 10.3473 12.1587 7.83381 10.0146C7.85954 9.98392 7.88435 9.9544 7.90805 9.92603C7.99542 9.82127 8.07037 9.73195 8.14216 9.64049ZM6.68776 10.3246C8.24644 11.9966 9.80426 13.6697 11.3612 15.3437L13.5603 17.7067C13.6526 17.8061 13.7466 17.9041 13.8406 18.0019C13.9982 18.1659 14.1611 18.3364 14.313 18.5094C14.8023 19.067 15.3663 19.137 16.1993 18.7434C16.462 18.6056 16.7074 18.4371 16.9303 18.2415C17.0056 18.1804 17.0807 18.1197 17.1568 18.0612C17.7375 17.6161 18.3156 17.1679 18.9053 16.7112L19.5514 16.2106L23.5 21.0251C23.2976 21.166 23.0948 21.3123 22.8977 21.4545C22.3519 21.8653 21.7816 22.2425 21.1901 22.5843C20.7214 22.8421 20.1295 22.9243 19.5636 22.9868C18.3638 23.1192 17.2726 22.9151 16.3183 22.3818L16.1338 22.2783C15.1883 21.7499 14.2106 21.2036 13.3138 20.5783C12.0756 19.7279 10.8846 18.8111 9.74577 17.832C9.1917 17.3321 8.66316 16.8048 8.16215 16.2519C7.80519 15.871 7.43634 15.4772 7.05466 15.1085C6.07167 14.1596 5.14444 13.0124 4.13683 11.4979C3.24252 10.1543 2.55763 8.74585 2.00541 7.54552C1.79551 7.08905 1.59052 6.5463 1.66077 5.98105C1.67479 5.76159 1.75049 5.55059 1.8792 5.37216C2.48965 4.68002 3.12931 3.99181 3.74787 3.3264C3.92404 3.137 4.10008 2.94742 4.27597 2.75761C5.66927 4.33146 7.19004 5.81069 8.63213 7.17776C8.17168 7.80883 7.63473 8.38049 7.03355 8.87965C6.99591 8.91038 6.95713 8.93958 6.91837 8.96897C6.84233 9.02459 6.76939 9.08434 6.69986 9.1479C6.29266 9.53328 6.28896 9.89651 6.68776 10.3242V10.3246Z"
+                        fill="white" />
+                    <path
+                        d="M20.4539 3.60265C18.385 2.24951 15.9191 1.56911 12.694 1.46209C11.4698 1.41344 9.5253 1.80828 8.42529 2.19951C8.235 2.26694 8.05562 2.36183 7.89288 2.48116C7.65999 2.65384 7.59263 2.8928 7.7128 3.12027C7.84765 3.37539 8.07458 3.30844 8.21014 3.2686C8.23649 3.26081 8.26285 3.25304 8.28879 3.24689C9.80749 2.89263 10.9818 2.73481 12.0938 2.73481H12.1094C13.3302 2.74205 14.5462 2.88587 15.7348 3.16368C18.5584 3.80298 20.7635 5.15797 22.4762 7.30617C24.0195 9.24187 24.5893 11.4378 24.2182 14.0193C24.1292 14.6508 23.9577 15.2679 23.7075 15.8548C23.5374 16.2542 23.5167 16.5884 23.6422 16.9052C23.6692 16.9932 23.7153 17.0745 23.7771 17.1429C23.8388 17.2113 23.9151 17.2653 24 17.3012C24.0503 17.3186 24.1034 17.3276 24.1567 17.3275C24.2773 17.3235 24.3948 17.2882 24.4975 17.2251C24.7873 17.06 24.9945 16.7995 25.1496 16.4048C26.0862 14.0224 26.1352 11.6692 25.2951 9.41054C24.4336 7.09407 22.8048 5.14025 20.4539 3.60265Z"
+                        fill="white" />
+                    <path
+                        d="M20.0166 13.2721C20.1222 13.4154 20.2847 13.5929 20.528 13.5929C20.5702 13.5928 20.6122 13.5878 20.6531 13.5781C20.963 13.5054 21.0193 13.2013 21.0464 13.0551C21.1733 12.3583 21.0846 11.6395 20.7923 10.9942C20.5583 10.4595 20.3318 9.99367 20.0993 9.57008C19.4265 8.34332 18.7156 7.49439 17.8627 6.89853C16.1114 5.67494 14.6223 5.0879 13.0347 4.99481C12.2758 4.95045 11.672 5.04681 11.1348 5.29834C10.788 5.46089 10.7971 5.70435 10.8334 5.83505C10.9108 6.11341 11.1718 6.10264 11.3278 6.0958C11.443 6.09098 11.5655 6.08075 11.7024 6.06509C11.9092 6.04091 12.1159 6.01497 12.3226 5.98897L12.5797 5.95697C13.397 5.96597 14.2373 6.17197 15.2235 6.60438C16.9793 7.37446 18.1929 8.45667 18.9335 9.91253C19.0554 10.1518 19.1686 10.4016 19.2783 10.6432C19.3545 10.8111 19.4308 10.9792 19.5104 11.1455C19.7151 11.5336 19.8083 11.9705 19.7797 12.4083C19.7479 12.7156 19.8324 13.0238 20.0166 13.2721Z"
+                        fill="white" />
+                </svg>
+                <span class="align-middle ml-4 text-white font-bold sm:text-lg text-sm tracking-[0.5px]">Jetzt
+                    kostenloses Gespräch vereinbaren</span>
+            </a>
+            <div class="flex items-center sm:gap-[1.25rem] gap-4 justify-center sm:mt-2">
+                <div>
+                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                        <g clip-path="url(#clip0_520_85)">
+                            <path
+                                d="M9.50011 0C4.25334 0 0 4.25288 0 9.50012C0 14.7464 4.25334 18.9998 9.50011 18.9998C14.7467 18.9998 19 14.7464 19 9.50012C19 4.25288 14.7467 0 9.50011 0Z"
+                                fill="#D9818E" />
+                            <path
+                                d="M10.6755 5.56886C10.5558 5.41557 10.3969 5.33887 10.1987 5.33887C10.0229 5.33887 9.90323 5.37253 9.8397 5.43985C9.77605 5.50717 9.63957 5.68666 9.43022 5.97838C9.22075 6.27007 8.98049 6.53372 8.70941 6.76931C8.43821 7.0049 8.0764 7.2293 7.62396 7.44245C7.32105 7.5846 7.1097 7.70047 6.99007 7.79024C6.87036 7.88 6.81055 8.02023 6.81055 8.21094C6.81055 8.37552 6.87128 8.52043 6.99287 8.64569C7.11434 8.77103 7.25373 8.8336 7.41077 8.8336C7.7398 8.8336 8.37931 8.469 9.32924 7.73976V12.8444C9.32924 13.1437 9.3984 13.3699 9.53679 13.5232C9.67511 13.6765 9.85835 13.7532 10.0865 13.7532C10.5988 13.7532 10.855 13.3774 10.855 12.6257V6.20275C10.855 5.9335 10.7952 5.72227 10.6755 5.56886Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_520_85">
+                                <rect width="19" height="19" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Fragebogen zum Kennenlernen
+                        ausfüllen</span>
+                </div>
+                <div>
+                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                        <g clip-path="url(#clip0_520_67)">
+                            <path
+                                d="M9.50011 0.000488281C4.25334 0.000488281 0 4.25337 0 9.5006C0 14.7469 4.25334 19.0003 9.50011 19.0003C14.7467 19.0003 19 14.7469 19 9.5006C19 4.25337 14.7467 0.000488281 9.50011 0.000488281Z"
+                                fill="#D9818E" />
+                            <path
+                                d="M12.2461 12.4686C12.0927 12.3489 11.8702 12.289 11.5785 12.289H8.65035C8.74379 12.147 8.83546 12.0254 8.92523 11.9244C9.13462 11.6702 9.5207 11.313 10.0836 10.853C10.6464 10.393 11.0475 10.0556 11.2868 9.84051C11.5261 9.62553 11.7608 9.32821 11.9908 8.9486C12.2208 8.56906 12.3358 8.14741 12.3358 7.68366C12.3358 7.3883 12.2806 7.10308 12.1704 6.82821C12.06 6.55333 11.9057 6.31124 11.7076 6.10177C11.5093 5.89237 11.2793 5.72786 11.0176 5.60811C10.6137 5.42859 10.1257 5.33887 9.55352 5.33887C9.07856 5.33887 8.6644 5.40898 8.31102 5.54922C7.95765 5.68945 7.66592 5.87369 7.43593 6.10177C7.20593 6.32992 7.03292 6.5842 6.91704 6.86466C6.80108 7.14513 6.74314 7.41438 6.74314 7.67244C6.74314 7.88559 6.80484 8.05389 6.92826 8.17731C7.05168 8.30074 7.20681 8.36243 7.39384 8.36243C7.60699 8.36243 7.7687 8.29511 7.87907 8.1605C7.98931 8.02586 8.08846 7.83332 8.17638 7.58272C8.26419 7.3322 8.32688 7.17883 8.36429 7.12273C8.64476 6.69272 9.02988 6.47762 9.51986 6.47762C9.75169 6.47762 9.96584 6.53005 10.1621 6.63471C10.3585 6.73944 10.5136 6.88626 10.6277 7.07505C10.7418 7.26396 10.7988 7.47806 10.7988 7.71732C10.7988 7.93801 10.7455 8.1633 10.6389 8.39325C10.5324 8.62321 10.3771 8.84762 10.1734 9.06639C9.96947 9.28517 9.71424 9.50306 9.40766 9.71988C9.2356 9.83584 8.94951 10.078 8.54941 10.4463C8.14919 10.8147 7.70046 11.2569 7.20313 11.773C7.08343 11.9002 6.97314 12.075 6.87216 12.2975C6.77118 12.52 6.7207 12.6986 6.7207 12.8332C6.7207 13.0426 6.79924 13.225 6.95629 13.3801C7.11337 13.5353 7.33211 13.6129 7.61261 13.6129H11.7412C11.988 13.6129 12.1722 13.5493 12.2938 13.4222C12.4152 13.2951 12.4761 13.1399 12.4761 12.9566C12.4761 12.751 12.3994 12.5883 12.2461 12.4686Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_520_67">
+                                <rect width="19" height="19" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Passenden Online-Termin
+                        vereinbaren</span>
+                </div>
+            </div>
+        </div>
+        <div class="lg:flex items-center justify-between lg:mt-[6.563rem] mt-[3.188rem]">
+            <div class="font-eupharia xl:text-[3.75rem] text-[2.5rem] leading-09">Menschen entwickeln<br><span
+                    class="text-pink-bold">-
+                    mein Ziel</span></div>
+            <div class="space-x-10 relative lg:mt-0 mt-6 lg:max-w-none sm:max-w-lg max-w-sm lg:mx-0 mx-auto">
+                <div class="font-bold text-center uppercase inline-block sm:pl-0 pl-2">
+                    <span class="font-bold lg:text-[4.375rem] text-[2.5rem] leading-12 tracking-[1px] relative">
+                        <span>25+</span>
+                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full"></div>
+                    </span>
+                    <div class="leading-11 lg:leading-11 lg:text-lg text-sm lg:mt-3 mt-1">Jahre<br>erfahrung</div>
+                </div>
+                <div class="font-bold text-center uppercase inline-block sm:static absolute right-[40%] top-[6.625rem]">
+                    <span class="font-bold lg:text-[4.375rem] text-[2.5rem] leading-12 tracking-[1px] relative">
+                        <span>1k+</span>
+                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full"></div>
+                    </span>
+                    <div class="leading-11 lg:leading-11 lg:text-lg text-sm lg:mt-3 mt-1">menschen<br>geholfen</div>
+                </div>
+                <div class="font-bold text-center uppercase inline-block sm:static absolute right-4 top-24">
+                    <span class="font-bold lg:text-[4.375rem] text-[2.5rem] leading-12 tracking-[1px] relative">
+                        <span>800</span>
+                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full"></div>
+                    </span>
+                    <div class="leading-11 lg:leading-11 lg:text-lg text-sm lg:mt-3 mt-1">stunden<br>gecoacht</div>
+                </div>
+                <div class="font-bold text-center uppercase inline-block sm:static absolute right-[12%] -top-8">
+                    <span class="font-bold lg:text-[4.375rem] text-[2.5rem] leading-12 tracking-[1px] relative">
+                        <span>250</span>
+                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full"></div>
+                    </span>
+                    <div class="leading-11 lg:leading-11 lg:text-lg text-sm lg:mt-3 mt-1">TAUSEND € in <br>coachings investiert
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:py-28 py-[3.625rem] px-4 container mx-auto" id="uber-mich">
+        <div class="lg:flex justify-between lg:pr-16">
+            <div class="lg:w-[53%] lg:pb-20">
+                <div class="flex justify-between">
+                    <img src="assets/uber-1.jpg" class="rounded-20 w-[38%]" width="230" height="465">
+                    <img src="assets/uber-2.jpg" class="rounded-20 w-[57%] relative sm:top-[2.188rem] top-[1.25rem]"
+                        width="345" height="465">
+                </div>
+            </div>
+            <div class="pt-[3.5rem] lg:w-[38%]">
+                <h2 class="font-eupharia leading-09 lg:text-[5rem] text-[2.75rem]">Über mich</h2>
+                <div class="lg:mt-[1.688rem] mt-3">
+                    <div class="leading-[1.7]">
+                        <p>Vor mehr als 20 zig Jahren machte ich mich selbst auf die Suche: warum wir manchmal Dinge
+                            tun, die wir nicht tun wollen. Diese Frage beschäftigte mich seitdem ich mit Menschen zu tun
+                            habe. Anfangs wollte ich mich besser verstehen, weil ich selbst oft Dinge getan habe, die
+                            nicht tun wollte...</p>
+                        <div class="hidden" id="hidden-text">
+                            <br>
+                            <p>Dies hat mich dann auch öfters in persönliche Schwierigkeiten gebracht. Das wollte ich
+                                stoppen.</p><br>
+                            <p>Ich wollte endlich ein Leben führen, dass ich wollte und zwar selbstbestimmt ohne ein
+                                schlechtes Gewissen dabei zu haben. Seitdem mache ich nur Dinge die mir Spass machen und
+                                das
+                                was ich gerne machen möchte ohne dabei ein schlechtes Gewissen zu haben.</p><br>
+                            <p>​Knapp 1.000 Menschen habe ich bereits in meinen Programmen begleitet. Diese Kunden
+                                erleben
+                                ein ganz neues Ah-Erlebnis an Vertrauen in sich selbst.​ Business darf Spaß machen!
+                                Erfolg
+                                im darf Spaß machen! Du darfst Spass haben!</p><br>
+                            <p>Ich liebe es, täglich das zu tun, was mich zutiefst erfüllt und gleichzeitig andere
+                                voranbringt. Ich arbeite mit Menschen zusammen, die den Mut haben in sich zu
+                                investieren.
+                            </p>
+                            <p>Was gibt es schöneres!</p>
+                        </div>
+                        <button type="button" class="font-bold mt-6" id="more-button">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="inline">
+                                <g clip-path="url(#clip0_611_5)">
+                                    <path
+                                        d="M0.199705 4.57296L7.01807 11.3911C7.14589 11.519 7.31934 11.5908 7.50016 11.5908C7.68102 11.5908 7.85443 11.519 7.9823 11.3911L14.8003 4.57291C15.0666 4.30664 15.0666 3.87496 14.8003 3.60868C14.5341 3.34246 14.1023 3.34241 13.8361 3.60868L7.50016 9.94473L1.16393 3.60868C1.0308 3.47555 0.856296 3.409 0.681796 3.409C0.507296 3.409 0.332796 3.47555 0.19966 3.60873C-0.0665671 3.875 -0.0665671 4.30668 0.199705 4.57296Z"
+                                        fill="black" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_611_5">
+                                        <rect width="15" height="15" fill="white"
+                                            transform="translate(15 15) rotate(180)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="underline ml-2 lg:text-17 text-sm">weiterlesen</span>
+                        </button>
+                        <div class="font-bold tracking-[2px] lg:mt-16 mt-[1.75rem] uppercase">Nicole Kaps</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lg:grid grid-cols-3 gap-[2.188rem] mt-20 lg:space-y-0 space-y-[1.875rem]">
+            <div class="relative sm:pl-[5.25rem] pl-[2.25rem]">
+                <img src="assets/selbstwert.png" width="30" height="27"
+                    class="absolute left-0 top-0 sm:w-[65px] sm:h-[59px]">
+                <h6 class="sm:text-xl text-base font-bold">MEHR SELBSTWERT</h6>
+                <p class="leading-[1.7] sm:mt-4 mt-2 sm:text-17 text-sm">Erkenn deinen eigenen Wert, habe keine Angst
+                    mehr “Nein” zu sagen oder
+                    eines zu bekommen. Treffe bessere Entscheidungen.</p>
+            </div>
+            <div class="relative sm:pl-[5.25rem] pl-[2.25rem]">
+                <img src="assets/gelassenheit.png" width="30" height="27"
+                    class="absolute left-0 top-0 sm:w-[65px] sm:h-[59px]">
+                <h6 class="sm:text-xl text-base font-bold">MEHR GELASSENHEIT</h6>
+                <p class="leading-[1.7] sm:mt-4 mt-2 sm:text-17 text-sm">Mehr Stabilität, nichts wird dich aus deinem
+                    Gleichgewicht bringen.
+                    Nie wieder von Emotionen überrollen lassen. Werde dir selber sehr viel bewusster!</p>
+            </div>
+            <div class="relative sm:pl-[5.25rem] pl-[2.25rem]">
+                <img src="assets/sichtbarkeit.png" width="30" height="27"
+                    class="absolute left-0 top-0 sm:w-[65px] sm:h-[59px]">
+                <h6 class="sm:text-xl text-base font-bold">MEHR SICHTBARKEIT</h6>
+                <p class="leading-[1.7] sm:mt-4 mt-2 sm:text-17 text-sm">Menschen werden dir anders begegnen, weil du
+                    präsenter bist. Du bist
+                    sicherer und bewusster. Dein Charisma ist deutlich ausdrucksstärker.</p>
+            </div>
+        </div>
+        <div class="lg:mt-[7.813rem] mt-[2.75rem]">
+            <a href="#"
+                class="bg-pink-bold drop-shadow-button py-4 rounded-30 flex justify-center w-full sm:max-w-[35rem] max-w-sm mx-auto">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="align-middle inline sm:w-[26px] sm:h-[26px] w-[19px] h-[19px]">
+                    <path
+                        d="M8.14216 9.64049C8.28893 9.45272 8.43632 9.26545 8.58433 9.07878C8.96211 8.60049 9.35262 8.10582 9.72055 7.60673C10.1958 6.9615 10.1634 6.66369 9.55573 6.09098C9.50519 6.04347 9.45186 5.99881 9.39843 5.95435C9.35742 5.91984 9.31558 5.88529 9.27539 5.84915L8.7999 5.41905C8.34285 5.0057 7.87021 4.57825 7.40928 4.15414C7.05904 3.83194 6.71015 3.50851 6.36259 3.18378C5.89836 2.75178 5.41834 2.30492 4.94142 1.87046C4.40818 1.38398 4.1029 1.38481 3.58217 1.87396C3.08606 2.33986 2.58512 2.8171 2.10069 3.27849C1.66754 3.6911 1.23363 4.10287 0.798979 4.51391C0.608266 4.69124 0.456424 4.90622 0.353033 5.14512C0.249642 5.384 0.196944 5.6417 0.198266 5.90196C0.201956 6.31054 0.253822 6.71728 0.352802 7.11375C0.604345 8.19558 1.14404 9.16561 1.66611 10.1043L1.79532 10.3371C3.14973 12.783 4.61532 14.7343 6.27707 16.3027C6.5847 16.5928 6.87593 16.9139 7.15792 17.2244C7.53389 17.6579 7.93914 18.065 8.37083 18.4431C9.63542 19.4995 11.0234 20.5724 12.6138 21.7236C13.923 22.6711 15.0749 23.3568 16.2376 23.8817C17.0877 24.2776 18.0131 24.4867 18.9511 24.4948C19.3529 24.4948 19.7536 24.4539 20.1471 24.373L20.2093 24.3604C20.8068 24.2384 21.4248 24.1122 21.9448 23.6962C22.2029 23.4897 22.4846 23.2999 22.757 23.1163C22.8998 23.0201 23.0426 22.9237 23.1831 22.8246C23.309 22.736 23.4377 22.6505 23.5666 22.5649C23.8845 22.3658 24.1859 22.1416 24.4677 21.894C25.2477 21.1706 25.0843 20.6698 24.5383 20.0488C23.9415 19.3699 23.3591 18.6568 22.795 17.9675C22.5707 17.6929 22.3457 17.4188 22.1204 17.1451C21.9432 16.9307 21.7671 16.7154 21.5919 16.4991C21.2536 16.0832 20.9038 15.6531 20.547 15.2402C19.8686 14.4554 19.5813 14.4302 18.7393 15.0816C18.1573 15.5323 17.5703 15.9951 17.0018 16.4431C16.6438 16.7252 16.2855 17.007 15.9267 17.2884C15.8188 17.3729 15.7057 17.4515 15.5963 17.5274L15.5278 17.575C15.3086 17.3462 15.0898 17.1175 14.8715 16.8888C12.6463 14.5628 10.3473 12.1587 7.83381 10.0146C7.85954 9.98392 7.88435 9.9544 7.90805 9.92603C7.99542 9.82127 8.07037 9.73195 8.14216 9.64049ZM6.68776 10.3246C8.24644 11.9966 9.80426 13.6697 11.3612 15.3437L13.5603 17.7067C13.6526 17.8061 13.7466 17.9041 13.8406 18.0019C13.9982 18.1659 14.1611 18.3364 14.313 18.5094C14.8023 19.067 15.3663 19.137 16.1993 18.7434C16.462 18.6056 16.7074 18.4371 16.9303 18.2415C17.0056 18.1804 17.0807 18.1197 17.1568 18.0612C17.7375 17.6161 18.3156 17.1679 18.9053 16.7112L19.5514 16.2106L23.5 21.0251C23.2976 21.166 23.0948 21.3123 22.8977 21.4545C22.3519 21.8653 21.7816 22.2425 21.1901 22.5843C20.7214 22.8421 20.1295 22.9243 19.5636 22.9868C18.3638 23.1192 17.2726 22.9151 16.3183 22.3818L16.1338 22.2783C15.1883 21.7499 14.2106 21.2036 13.3138 20.5783C12.0756 19.7279 10.8846 18.8111 9.74577 17.832C9.1917 17.3321 8.66316 16.8048 8.16215 16.2519C7.80519 15.871 7.43634 15.4772 7.05466 15.1085C6.07167 14.1596 5.14444 13.0124 4.13683 11.4979C3.24252 10.1543 2.55763 8.74585 2.00541 7.54552C1.79551 7.08905 1.59052 6.5463 1.66077 5.98105C1.67479 5.76159 1.75049 5.55059 1.8792 5.37216C2.48965 4.68002 3.12931 3.99181 3.74787 3.3264C3.92404 3.137 4.10008 2.94742 4.27597 2.75761C5.66927 4.33146 7.19004 5.81069 8.63213 7.17776C8.17168 7.80883 7.63473 8.38049 7.03355 8.87965C6.99591 8.91038 6.95713 8.93958 6.91837 8.96897C6.84233 9.02459 6.76939 9.08434 6.69986 9.1479C6.29266 9.53328 6.28896 9.89651 6.68776 10.3242V10.3246Z"
+                        fill="white" />
+                    <path
+                        d="M20.4539 3.60265C18.385 2.24951 15.9191 1.56911 12.694 1.46209C11.4698 1.41344 9.5253 1.80828 8.42529 2.19951C8.235 2.26694 8.05562 2.36183 7.89288 2.48116C7.65999 2.65384 7.59263 2.8928 7.7128 3.12027C7.84765 3.37539 8.07458 3.30844 8.21014 3.2686C8.23649 3.26081 8.26285 3.25304 8.28879 3.24689C9.80749 2.89263 10.9818 2.73481 12.0938 2.73481H12.1094C13.3302 2.74205 14.5462 2.88587 15.7348 3.16368C18.5584 3.80298 20.7635 5.15797 22.4762 7.30617C24.0195 9.24187 24.5893 11.4378 24.2182 14.0193C24.1292 14.6508 23.9577 15.2679 23.7075 15.8548C23.5374 16.2542 23.5167 16.5884 23.6422 16.9052C23.6692 16.9932 23.7153 17.0745 23.7771 17.1429C23.8388 17.2113 23.9151 17.2653 24 17.3012C24.0503 17.3186 24.1034 17.3276 24.1567 17.3275C24.2773 17.3235 24.3948 17.2882 24.4975 17.2251C24.7873 17.06 24.9945 16.7995 25.1496 16.4048C26.0862 14.0224 26.1352 11.6692 25.2951 9.41054C24.4336 7.09407 22.8048 5.14025 20.4539 3.60265Z"
+                        fill="white" />
+                    <path
+                        d="M20.0166 13.2721C20.1222 13.4154 20.2847 13.5929 20.528 13.5929C20.5702 13.5928 20.6122 13.5878 20.6531 13.5781C20.963 13.5054 21.0193 13.2013 21.0464 13.0551C21.1733 12.3583 21.0846 11.6395 20.7923 10.9942C20.5583 10.4595 20.3318 9.99367 20.0993 9.57008C19.4265 8.34332 18.7156 7.49439 17.8627 6.89853C16.1114 5.67494 14.6223 5.0879 13.0347 4.99481C12.2758 4.95045 11.672 5.04681 11.1348 5.29834C10.788 5.46089 10.7971 5.70435 10.8334 5.83505C10.9108 6.11341 11.1718 6.10264 11.3278 6.0958C11.443 6.09098 11.5655 6.08075 11.7024 6.06509C11.9092 6.04091 12.1159 6.01497 12.3226 5.98897L12.5797 5.95697C13.397 5.96597 14.2373 6.17197 15.2235 6.60438C16.9793 7.37446 18.1929 8.45667 18.9335 9.91253C19.0554 10.1518 19.1686 10.4016 19.2783 10.6432C19.3545 10.8111 19.4308 10.9792 19.5104 11.1455C19.7151 11.5336 19.8083 11.9705 19.7797 12.4083C19.7479 12.7156 19.8324 13.0238 20.0166 13.2721Z"
+                        fill="white" />
+                </svg>
+                <span class="align-middle ml-4 text-white font-bold sm:text-lg text-sm tracking-[0.5px]">Jetzt
+                    kostenloses Gespräch vereinbaren</span>
+            </a>
+            <div class="flex items-center sm:gap-[1.25rem] gap-4 justify-center sm:mt-2">
+                <div>
+                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                        <g clip-path="url(#clip0_520_85)">
+                            <path
+                                d="M9.50011 0C4.25334 0 0 4.25288 0 9.50012C0 14.7464 4.25334 18.9998 9.50011 18.9998C14.7467 18.9998 19 14.7464 19 9.50012C19 4.25288 14.7467 0 9.50011 0Z"
+                                fill="#D9818E" />
+                            <path
+                                d="M10.6755 5.56886C10.5558 5.41557 10.3969 5.33887 10.1987 5.33887C10.0229 5.33887 9.90323 5.37253 9.8397 5.43985C9.77605 5.50717 9.63957 5.68666 9.43022 5.97838C9.22075 6.27007 8.98049 6.53372 8.70941 6.76931C8.43821 7.0049 8.0764 7.2293 7.62396 7.44245C7.32105 7.5846 7.1097 7.70047 6.99007 7.79024C6.87036 7.88 6.81055 8.02023 6.81055 8.21094C6.81055 8.37552 6.87128 8.52043 6.99287 8.64569C7.11434 8.77103 7.25373 8.8336 7.41077 8.8336C7.7398 8.8336 8.37931 8.469 9.32924 7.73976V12.8444C9.32924 13.1437 9.3984 13.3699 9.53679 13.5232C9.67511 13.6765 9.85835 13.7532 10.0865 13.7532C10.5988 13.7532 10.855 13.3774 10.855 12.6257V6.20275C10.855 5.9335 10.7952 5.72227 10.6755 5.56886Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_520_85">
+                                <rect width="19" height="19" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Fragebogen zum Kennenlernen
+                        ausfüllen</span>
+                </div>
+                <div>
+                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                        <g clip-path="url(#clip0_520_67)">
+                            <path
+                                d="M9.50011 0.000488281C4.25334 0.000488281 0 4.25337 0 9.5006C0 14.7469 4.25334 19.0003 9.50011 19.0003C14.7467 19.0003 19 14.7469 19 9.5006C19 4.25337 14.7467 0.000488281 9.50011 0.000488281Z"
+                                fill="#D9818E" />
+                            <path
+                                d="M12.2461 12.4686C12.0927 12.3489 11.8702 12.289 11.5785 12.289H8.65035C8.74379 12.147 8.83546 12.0254 8.92523 11.9244C9.13462 11.6702 9.5207 11.313 10.0836 10.853C10.6464 10.393 11.0475 10.0556 11.2868 9.84051C11.5261 9.62553 11.7608 9.32821 11.9908 8.9486C12.2208 8.56906 12.3358 8.14741 12.3358 7.68366C12.3358 7.3883 12.2806 7.10308 12.1704 6.82821C12.06 6.55333 11.9057 6.31124 11.7076 6.10177C11.5093 5.89237 11.2793 5.72786 11.0176 5.60811C10.6137 5.42859 10.1257 5.33887 9.55352 5.33887C9.07856 5.33887 8.6644 5.40898 8.31102 5.54922C7.95765 5.68945 7.66592 5.87369 7.43593 6.10177C7.20593 6.32992 7.03292 6.5842 6.91704 6.86466C6.80108 7.14513 6.74314 7.41438 6.74314 7.67244C6.74314 7.88559 6.80484 8.05389 6.92826 8.17731C7.05168 8.30074 7.20681 8.36243 7.39384 8.36243C7.60699 8.36243 7.7687 8.29511 7.87907 8.1605C7.98931 8.02586 8.08846 7.83332 8.17638 7.58272C8.26419 7.3322 8.32688 7.17883 8.36429 7.12273C8.64476 6.69272 9.02988 6.47762 9.51986 6.47762C9.75169 6.47762 9.96584 6.53005 10.1621 6.63471C10.3585 6.73944 10.5136 6.88626 10.6277 7.07505C10.7418 7.26396 10.7988 7.47806 10.7988 7.71732C10.7988 7.93801 10.7455 8.1633 10.6389 8.39325C10.5324 8.62321 10.3771 8.84762 10.1734 9.06639C9.96947 9.28517 9.71424 9.50306 9.40766 9.71988C9.2356 9.83584 8.94951 10.078 8.54941 10.4463C8.14919 10.8147 7.70046 11.2569 7.20313 11.773C7.08343 11.9002 6.97314 12.075 6.87216 12.2975C6.77118 12.52 6.7207 12.6986 6.7207 12.8332C6.7207 13.0426 6.79924 13.225 6.95629 13.3801C7.11337 13.5353 7.33211 13.6129 7.61261 13.6129H11.7412C11.988 13.6129 12.1722 13.5493 12.2938 13.4222C12.4152 13.2951 12.4761 13.1399 12.4761 12.9566C12.4761 12.751 12.3994 12.5883 12.2461 12.4686Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_520_67">
+                                <rect width="19" height="19" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Passenden Online-Termin
+                        vereinbaren</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:pt-[8.125rem] lg:pb-[4.688rem] pt-[2.188rem] pb-12 bg-pink-light">
+        <div class="lg:flex max-w-[1536px] lgx:container lg:px-0 px-3 mx-auto">
+            <div
+                class="lg:w-1/2 relative">
+                <div class="grid grid-cols-3 lg:gap-[1.25rem] gap-4 font-bold lg:text-sm text-xs leading-11 text-white lg:absolute top-0 left-0">
+                    <div class="relative">
+                        <img src="assets/3-1.jpg" width="210" height="520" class="w-full rounded-20">
+                        <div
+                            class="absolute w-full left-0 lg:bottom-10 bottom-[1.25rem] lg:px-[1.125rem] px-[0.875rem] flex lg:flex-row flex-col justify-center items-center gap-2">
+                            <img src="assets/3-1a.png" width="22" height="20" class="lg:w-[65px] lg:h-[59px]">
+                            <div class="lgx:h-[1.649rem] lgx:inline-flex items-center"><span>GELASSEN-HEIT</span></div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/3-2.jpg" width="210" height="520" class="w-full rounded-20">
+                        <div
+                            class="absolute w-full left-0 lg:bottom-10 bottom-[1.25rem] lg:px-[1.125rem] px-[0.875rem] flex lg:flex-row flex-col justify-center items-center gap-2">
+                            <img src="assets/3-2a.png" width="22" height="20" class="lg:w-[65px] lg:h-[59px]">
+                            <div class="lgx:h-[1.649rem] lgx:inline-flex items-center"><span>SELBSTWERT</span></div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/3-3.jpg" width="210" height="520" class="w-full rounded-20">
+                        <div
+                            class="absolute w-full left-0 lg:bottom-10 bottom-[1.25rem] lg:px-[1.125rem] px-[0.875rem] flex lg:flex-row flex-col justify-center items-center gap-2">
+                            <img src="assets/3-3a.png" width="22" height="20" class="lg:w-[65px] lg:h-[59px]">
+                            <div class="lgx:h-[1.649rem] lgx:inline-flex items-center"><span>SICHTBARKEIT & ERFOLG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 lg:px-10 lg:max-w-[38rem] lgx:mt-[1.875rem]">
+                <h2 class="font-eupharia lg:text-[5rem] text-[2.5rem] leading-09">Das ist mein<br>
+                    <span class="text-pink-bold">Versprechen an dich!</span>
+                </h2>
+                <p class="lg:mt-12 mt-[1.25rem]">Mit mir erreichst du dein Ziel rasant, denn eine Zusammenarbeit mit mir ist kein
+                    08/15 Coaching, sondern wir sind 24/7 ein Team, bis du dein Ziel erreicht hast. Stell dir vor,
+                    jemand nimmt dich an die Hand und zeigt dir Schritt für Schritt, wie du das bekommst, was du
+                    wirklich möchtest.</p>
+                <div class="lg:mt-[3.25rem] mt-[1.875rem]">
+                    <a href="#"
+                        class="bg-pink-bold drop-shadow-button py-4 lg:px-10 lg:inline-flex flex rounded-30 justify-center sm:max-w-[35rem] max-w-sm mx-auto lg:mx-0">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="align-middle inline sm:w-[26px] sm:h-[26px] w-[19px] h-[19px] lg:hidden">
+                            <path
+                                d="M8.14216 9.64049C8.28893 9.45272 8.43632 9.26545 8.58433 9.07878C8.96211 8.60049 9.35262 8.10582 9.72055 7.60673C10.1958 6.9615 10.1634 6.66369 9.55573 6.09098C9.50519 6.04347 9.45186 5.99881 9.39843 5.95435C9.35742 5.91984 9.31558 5.88529 9.27539 5.84915L8.7999 5.41905C8.34285 5.0057 7.87021 4.57825 7.40928 4.15414C7.05904 3.83194 6.71015 3.50851 6.36259 3.18378C5.89836 2.75178 5.41834 2.30492 4.94142 1.87046C4.40818 1.38398 4.1029 1.38481 3.58217 1.87396C3.08606 2.33986 2.58512 2.8171 2.10069 3.27849C1.66754 3.6911 1.23363 4.10287 0.798979 4.51391C0.608266 4.69124 0.456424 4.90622 0.353033 5.14512C0.249642 5.384 0.196944 5.6417 0.198266 5.90196C0.201956 6.31054 0.253822 6.71728 0.352802 7.11375C0.604345 8.19558 1.14404 9.16561 1.66611 10.1043L1.79532 10.3371C3.14973 12.783 4.61532 14.7343 6.27707 16.3027C6.5847 16.5928 6.87593 16.9139 7.15792 17.2244C7.53389 17.6579 7.93914 18.065 8.37083 18.4431C9.63542 19.4995 11.0234 20.5724 12.6138 21.7236C13.923 22.6711 15.0749 23.3568 16.2376 23.8817C17.0877 24.2776 18.0131 24.4867 18.9511 24.4948C19.3529 24.4948 19.7536 24.4539 20.1471 24.373L20.2093 24.3604C20.8068 24.2384 21.4248 24.1122 21.9448 23.6962C22.2029 23.4897 22.4846 23.2999 22.757 23.1163C22.8998 23.0201 23.0426 22.9237 23.1831 22.8246C23.309 22.736 23.4377 22.6505 23.5666 22.5649C23.8845 22.3658 24.1859 22.1416 24.4677 21.894C25.2477 21.1706 25.0843 20.6698 24.5383 20.0488C23.9415 19.3699 23.3591 18.6568 22.795 17.9675C22.5707 17.6929 22.3457 17.4188 22.1204 17.1451C21.9432 16.9307 21.7671 16.7154 21.5919 16.4991C21.2536 16.0832 20.9038 15.6531 20.547 15.2402C19.8686 14.4554 19.5813 14.4302 18.7393 15.0816C18.1573 15.5323 17.5703 15.9951 17.0018 16.4431C16.6438 16.7252 16.2855 17.007 15.9267 17.2884C15.8188 17.3729 15.7057 17.4515 15.5963 17.5274L15.5278 17.575C15.3086 17.3462 15.0898 17.1175 14.8715 16.8888C12.6463 14.5628 10.3473 12.1587 7.83381 10.0146C7.85954 9.98392 7.88435 9.9544 7.90805 9.92603C7.99542 9.82127 8.07037 9.73195 8.14216 9.64049ZM6.68776 10.3246C8.24644 11.9966 9.80426 13.6697 11.3612 15.3437L13.5603 17.7067C13.6526 17.8061 13.7466 17.9041 13.8406 18.0019C13.9982 18.1659 14.1611 18.3364 14.313 18.5094C14.8023 19.067 15.3663 19.137 16.1993 18.7434C16.462 18.6056 16.7074 18.4371 16.9303 18.2415C17.0056 18.1804 17.0807 18.1197 17.1568 18.0612C17.7375 17.6161 18.3156 17.1679 18.9053 16.7112L19.5514 16.2106L23.5 21.0251C23.2976 21.166 23.0948 21.3123 22.8977 21.4545C22.3519 21.8653 21.7816 22.2425 21.1901 22.5843C20.7214 22.8421 20.1295 22.9243 19.5636 22.9868C18.3638 23.1192 17.2726 22.9151 16.3183 22.3818L16.1338 22.2783C15.1883 21.7499 14.2106 21.2036 13.3138 20.5783C12.0756 19.7279 10.8846 18.8111 9.74577 17.832C9.1917 17.3321 8.66316 16.8048 8.16215 16.2519C7.80519 15.871 7.43634 15.4772 7.05466 15.1085C6.07167 14.1596 5.14444 13.0124 4.13683 11.4979C3.24252 10.1543 2.55763 8.74585 2.00541 7.54552C1.79551 7.08905 1.59052 6.5463 1.66077 5.98105C1.67479 5.76159 1.75049 5.55059 1.8792 5.37216C2.48965 4.68002 3.12931 3.99181 3.74787 3.3264C3.92404 3.137 4.10008 2.94742 4.27597 2.75761C5.66927 4.33146 7.19004 5.81069 8.63213 7.17776C8.17168 7.80883 7.63473 8.38049 7.03355 8.87965C6.99591 8.91038 6.95713 8.93958 6.91837 8.96897C6.84233 9.02459 6.76939 9.08434 6.69986 9.1479C6.29266 9.53328 6.28896 9.89651 6.68776 10.3242V10.3246Z"
+                                fill="white" />
+                            <path
+                                d="M20.4539 3.60265C18.385 2.24951 15.9191 1.56911 12.694 1.46209C11.4698 1.41344 9.5253 1.80828 8.42529 2.19951C8.235 2.26694 8.05562 2.36183 7.89288 2.48116C7.65999 2.65384 7.59263 2.8928 7.7128 3.12027C7.84765 3.37539 8.07458 3.30844 8.21014 3.2686C8.23649 3.26081 8.26285 3.25304 8.28879 3.24689C9.80749 2.89263 10.9818 2.73481 12.0938 2.73481H12.1094C13.3302 2.74205 14.5462 2.88587 15.7348 3.16368C18.5584 3.80298 20.7635 5.15797 22.4762 7.30617C24.0195 9.24187 24.5893 11.4378 24.2182 14.0193C24.1292 14.6508 23.9577 15.2679 23.7075 15.8548C23.5374 16.2542 23.5167 16.5884 23.6422 16.9052C23.6692 16.9932 23.7153 17.0745 23.7771 17.1429C23.8388 17.2113 23.9151 17.2653 24 17.3012C24.0503 17.3186 24.1034 17.3276 24.1567 17.3275C24.2773 17.3235 24.3948 17.2882 24.4975 17.2251C24.7873 17.06 24.9945 16.7995 25.1496 16.4048C26.0862 14.0224 26.1352 11.6692 25.2951 9.41054C24.4336 7.09407 22.8048 5.14025 20.4539 3.60265Z"
+                                fill="white" />
+                            <path
+                                d="M20.0166 13.2721C20.1222 13.4154 20.2847 13.5929 20.528 13.5929C20.5702 13.5928 20.6122 13.5878 20.6531 13.5781C20.963 13.5054 21.0193 13.2013 21.0464 13.0551C21.1733 12.3583 21.0846 11.6395 20.7923 10.9942C20.5583 10.4595 20.3318 9.99367 20.0993 9.57008C19.4265 8.34332 18.7156 7.49439 17.8627 6.89853C16.1114 5.67494 14.6223 5.0879 13.0347 4.99481C12.2758 4.95045 11.672 5.04681 11.1348 5.29834C10.788 5.46089 10.7971 5.70435 10.8334 5.83505C10.9108 6.11341 11.1718 6.10264 11.3278 6.0958C11.443 6.09098 11.5655 6.08075 11.7024 6.06509C11.9092 6.04091 12.1159 6.01497 12.3226 5.98897L12.5797 5.95697C13.397 5.96597 14.2373 6.17197 15.2235 6.60438C16.9793 7.37446 18.1929 8.45667 18.9335 9.91253C19.0554 10.1518 19.1686 10.4016 19.2783 10.6432C19.3545 10.8111 19.4308 10.9792 19.5104 11.1455C19.7151 11.5336 19.8083 11.9705 19.7797 12.4083C19.7479 12.7156 19.8324 13.0238 20.0166 13.2721Z"
+                                fill="white" />
+                        </svg>
+                        <span class="align-middle ml-4 text-white font-bold sm:text-lg text-sm tracking-[0.5px]">Jetzt
+                            kostenloses Gespräch vereinbaren</span>
+                    </a>
+                    <div class="flex items-center sm:gap-[1.25rem] gap-4 justify-center sm:mt-2 lg:hidden">
+                        <div>
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                                <g clip-path="url(#clip0_520_85)">
+                                    <path
+                                        d="M9.50011 0C4.25334 0 0 4.25288 0 9.50012C0 14.7464 4.25334 18.9998 9.50011 18.9998C14.7467 18.9998 19 14.7464 19 9.50012C19 4.25288 14.7467 0 9.50011 0Z"
+                                        fill="#D9818E" />
+                                    <path
+                                        d="M10.6755 5.56886C10.5558 5.41557 10.3969 5.33887 10.1987 5.33887C10.0229 5.33887 9.90323 5.37253 9.8397 5.43985C9.77605 5.50717 9.63957 5.68666 9.43022 5.97838C9.22075 6.27007 8.98049 6.53372 8.70941 6.76931C8.43821 7.0049 8.0764 7.2293 7.62396 7.44245C7.32105 7.5846 7.1097 7.70047 6.99007 7.79024C6.87036 7.88 6.81055 8.02023 6.81055 8.21094C6.81055 8.37552 6.87128 8.52043 6.99287 8.64569C7.11434 8.77103 7.25373 8.8336 7.41077 8.8336C7.7398 8.8336 8.37931 8.469 9.32924 7.73976V12.8444C9.32924 13.1437 9.3984 13.3699 9.53679 13.5232C9.67511 13.6765 9.85835 13.7532 10.0865 13.7532C10.5988 13.7532 10.855 13.3774 10.855 12.6257V6.20275C10.855 5.9335 10.7952 5.72227 10.6755 5.56886Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_520_85">
+                                        <rect width="19" height="19" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Fragebogen zum Kennenlernen
+                                ausfüllen</span>
+                        </div>
+                        <div>
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                                <g clip-path="url(#clip0_520_67)">
+                                    <path
+                                        d="M9.50011 0.000488281C4.25334 0.000488281 0 4.25337 0 9.5006C0 14.7469 4.25334 19.0003 9.50011 19.0003C14.7467 19.0003 19 14.7469 19 9.5006C19 4.25337 14.7467 0.000488281 9.50011 0.000488281Z"
+                                        fill="#D9818E" />
+                                    <path
+                                        d="M12.2461 12.4686C12.0927 12.3489 11.8702 12.289 11.5785 12.289H8.65035C8.74379 12.147 8.83546 12.0254 8.92523 11.9244C9.13462 11.6702 9.5207 11.313 10.0836 10.853C10.6464 10.393 11.0475 10.0556 11.2868 9.84051C11.5261 9.62553 11.7608 9.32821 11.9908 8.9486C12.2208 8.56906 12.3358 8.14741 12.3358 7.68366C12.3358 7.3883 12.2806 7.10308 12.1704 6.82821C12.06 6.55333 11.9057 6.31124 11.7076 6.10177C11.5093 5.89237 11.2793 5.72786 11.0176 5.60811C10.6137 5.42859 10.1257 5.33887 9.55352 5.33887C9.07856 5.33887 8.6644 5.40898 8.31102 5.54922C7.95765 5.68945 7.66592 5.87369 7.43593 6.10177C7.20593 6.32992 7.03292 6.5842 6.91704 6.86466C6.80108 7.14513 6.74314 7.41438 6.74314 7.67244C6.74314 7.88559 6.80484 8.05389 6.92826 8.17731C7.05168 8.30074 7.20681 8.36243 7.39384 8.36243C7.60699 8.36243 7.7687 8.29511 7.87907 8.1605C7.98931 8.02586 8.08846 7.83332 8.17638 7.58272C8.26419 7.3322 8.32688 7.17883 8.36429 7.12273C8.64476 6.69272 9.02988 6.47762 9.51986 6.47762C9.75169 6.47762 9.96584 6.53005 10.1621 6.63471C10.3585 6.73944 10.5136 6.88626 10.6277 7.07505C10.7418 7.26396 10.7988 7.47806 10.7988 7.71732C10.7988 7.93801 10.7455 8.1633 10.6389 8.39325C10.5324 8.62321 10.3771 8.84762 10.1734 9.06639C9.96947 9.28517 9.71424 9.50306 9.40766 9.71988C9.2356 9.83584 8.94951 10.078 8.54941 10.4463C8.14919 10.8147 7.70046 11.2569 7.20313 11.773C7.08343 11.9002 6.97314 12.075 6.87216 12.2975C6.77118 12.52 6.7207 12.6986 6.7207 12.8332C6.7207 13.0426 6.79924 13.225 6.95629 13.3801C7.11337 13.5353 7.33211 13.6129 7.61261 13.6129H11.7412C11.988 13.6129 12.1722 13.5493 12.2938 13.4222C12.4152 13.2951 12.4761 13.1399 12.4761 12.9566C12.4761 12.751 12.3994 12.5883 12.2461 12.4686Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_520_67">
+                                        <rect width="19" height="19" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Passenden Online-Termin
+                                vereinbaren</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:mt-[4.125rem] lg:py-[8.125rem] py-[2.938rem]">
+        <div class="container px-4 mx-auto">
+            <h1
+                class="font-bold md:text-[3.25rem] text-[1.875rem] leading-11 text-center uppercase md:mb-[6.25rem] mb-[3.125rem]">
+                So läuft ein<br class="lg:hidden"><span class="text-pink-bold">coaching mit mir</span> ab</h1>
+            <div class="lg:flex xl:gap-[3.75rem] gap-10 items-center">
+                <img src="assets/coaching-1.jpg" width="490" height="328" class="rounded-20 lg:w-[42%] w-full">
+                <div class="font-eupharia text-pink-bold text-[6.25rem] lg:block hidden">01</div>
+                <div class="lg:pr-[1.75rem] lg:pl-0 px-2 lg:mt-0 mt-6">
+                    <h3 class="font-bold sm:text-[1.625rem] text-base leading-12 uppercase lg:mb-6 mb-3"><span
+                            class="font-eupharia text-pink-bold text-[2.5rem] mr-4 lg:hidden">01</span>vereinbare ein
+                        gespräch</h3>
+                    <p>Du willst in Deinem Leben vorankommen und findest mein Angebot interessant? Du hast womöglich
+                        noch Fragen, auf die du eine Antwort benötigst? Easy. Das bekommen wir hin. Buche dir am besten
+                        gleich ein unverbindliches Erstgespräch bei mir. Denn die meisten haben bereits in diesem
+                        kostenlosen Gespräch die ersten großen Durchbrüche mit ihrem Thema.</p>
+                    <br>
+                    <a href="#"
+                        class="font-bold uppercase text-pink-bold lg:text-[0.938rem] text-xs tracking-[1.5px] leading-12 inline-flex items-center">
+                        <span>Hier gespräch verienbaren</span>
+                        <svg width="10" height="12" viewBox="0 0 10 12" fill="none" class="inline ml-2">
+                            <path
+                                d="M9.53033 6.53033C9.82322 6.23744 9.82322 5.76256 9.53033 5.46967L4.75736 0.696699C4.46447 0.403806 3.98959 0.403806 3.6967 0.696699C3.40381 0.989593 3.40381 1.46447 3.6967 1.75736L7.93934 6L3.6967 10.2426C3.40381 10.5355 3.40381 11.0104 3.6967 11.3033C3.98959 11.5962 4.46447 11.5962 4.75736 11.3033L9.53033 6.53033ZM0 6.75H9V5.25H0V6.75Z"
+                                fill="#D9818E" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:py-[8.125rem] py-[2.938rem] bg-pink-light">
+        <div class="container px-4 mx-auto">
+            <div class="lg:flex flex-row-reverse xl:gap-[3.75rem] gap-10 items-center">
+                <img src="assets/coaching-2.jpg" width="490" height="328" class="rounded-20 lg:w-[42%] w-full">
+                <div class="lg:pr-[1.75rem] lg:pl-0 px-2 lg:mt-0 mt-6">
+                    <h3 class="font-bold sm:text-[1.625rem] text-base leading-12 uppercase lg:mb-6 mb-3"><span
+                            class="font-eupharia text-pink-bold text-[2.5rem] mr-4 lg:hidden">02</span>Lass uns
+                        kennenlernen</h3>
+                    <p>Nach dem du dir einen Termin gebucht hast, freue ich mich dich persönlich ( Online) kennen zu
+                        lernen. Mir ist der persönliche Kontakt sehr wichtig, denn du hast selbst die Chance dir ein
+                        Bild über mich zu machen, ob ich für dich wirklich die richtige Person bin, denn unsere
+                        Zusammenarbeit sollte dir und auch mir Spass machen!</p>
+                    <br>
+                    <a href="#"
+                        class="font-bold uppercase text-pink-bold lg:text-[0.938rem] text-xs tracking-[1.5px] leading-12 inline-flex items-center">
+                        <span>Hier gespräch verienbaren</span>
+                        <svg width="10" height="12" viewBox="0 0 10 12" fill="none" class="inline ml-2">
+                            <path
+                                d="M9.53033 6.53033C9.82322 6.23744 9.82322 5.76256 9.53033 5.46967L4.75736 0.696699C4.46447 0.403806 3.98959 0.403806 3.6967 0.696699C3.40381 0.989593 3.40381 1.46447 3.6967 1.75736L7.93934 6L3.6967 10.2426C3.40381 10.5355 3.40381 11.0104 3.6967 11.3033C3.98959 11.5962 4.46447 11.5962 4.75736 11.3033L9.53033 6.53033ZM0 6.75H9V5.25H0V6.75Z"
+                                fill="#D9818E" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="font-eupharia text-pink-bold text-[6.25rem] lg:block hidden">02</div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:py-[8.125rem] py-[2.938rem]">
+        <div class="container px-4 mx-auto">
+            <div class="lg:flex xl:gap-[3.75rem] gap-10 items-center">
+                <img src="assets/coaching-3.jpg" width="490" height="328" class="rounded-20 lg:w-[42%] w-full">
+                <div class="font-eupharia text-pink-bold text-[6.25rem] lg:block hidden">03</div>
+                <div class="lg:pr-[1.75rem] lg:pl-0 px-2 lg:mt-0 mt-6">
+                    <h3 class="font-bold sm:text-[1.625rem] text-base leading-12 uppercase lg:mb-6 mb-3"><span
+                            class="font-eupharia text-pink-bold text-[2.5rem] mr-4 lg:hidden">03</span>SOFORTIGE
+                        VERÄNDERUNG GARANTIERT!</h3>
+                    <p>In unserer Zusammenarbeit wirst du bereits nach der 1. Stunde eine deutliche Verbesserung deines
+                        Zustandes verspüren und du fühlst dich, als wenn jemand den REST Button gedrückt
+                        hat.<br>Blockaden sind wie weg gepustet.</p>
+                    <br>
+                    <a href="#"
+                        class="font-bold uppercase text-pink-bold lg:text-[0.938rem] text-xs tracking-[1.5px] leading-12 inline-flex items-center">
+                        <span>Hier gespräch verienbaren</span>
+                        <svg width="10" height="12" viewBox="0 0 10 12" fill="none" class="inline ml-2">
+                            <path
+                                d="M9.53033 6.53033C9.82322 6.23744 9.82322 5.76256 9.53033 5.46967L4.75736 0.696699C4.46447 0.403806 3.98959 0.403806 3.6967 0.696699C3.40381 0.989593 3.40381 1.46447 3.6967 1.75736L7.93934 6L3.6967 10.2426C3.40381 10.5355 3.40381 11.0104 3.6967 11.3033C3.98959 11.5962 4.46447 11.5962 4.75736 11.3033L9.53033 6.53033ZM0 6.75H9V5.25H0V6.75Z"
+                                fill="#D9818E" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:py-[8.125rem] py-[2.938rem] bg-pink-light">
+        <div class="container px-4 mx-auto">
+            <div class="lg:flex flex-row-reverse xl:gap-[3.75rem] gap-10 items-center">
+                <img src="assets/coaching-4.jpg" width="490" height="328" class="rounded-20 lg:w-[42%] w-full">
+                <div class="lg:pr-[1.75rem] lg:pl-0 px-2 lg:mt-0 mt-6">
+                    <h3 class="font-bold sm:text-[1.625rem] text-base leading-12 uppercase lg:mb-6 mb-3"><span
+                            class="font-eupharia text-pink-bold text-[2.5rem] mr-4 lg:hidden">04</span>DU ERREICHST DEIN
+                        ZIEL</h3>
+                    <p>Seit Jahren beschäftige ich mich mit nichts anderem als wie Menschen schnell und voller
+                        Lebensfreude zurückfinden.<br>Deine Blockaden sind wie gepustet und das innerhalb kürzester
+                        Zeit. Innerhalb von 3 Stunden hat sich deine Welt um 180 Grad gedreht und du wirst nicht mehr
+                        dieselbe Person sein wie vorher. Du tust nur noch Dinge, die du tun möchtest.<br>Du weisst jetzt
+                        welchen Selbstwert du hast.<br>Du bist bei dir angekommen und die Gesellschaft nimmt dich jetzt
+                        mit ganz anderen Augen wahr.</p>
+                    <br>
+                    <a href="#"
+                        class="font-bold uppercase text-pink-bold lg:text-[0.938rem] text-xs tracking-[1.5px] leading-12 inline-flex items-center">
+                        <span>Hier gespräch verienbaren</span>
+                        <svg width="10" height="12" viewBox="0 0 10 12" fill="none" class="inline ml-2">
+                            <path
+                                d="M9.53033 6.53033C9.82322 6.23744 9.82322 5.76256 9.53033 5.46967L4.75736 0.696699C4.46447 0.403806 3.98959 0.403806 3.6967 0.696699C3.40381 0.989593 3.40381 1.46447 3.6967 1.75736L7.93934 6L3.6967 10.2426C3.40381 10.5355 3.40381 11.0104 3.6967 11.3033C3.98959 11.5962 4.46447 11.5962 4.75736 11.3033L9.53033 6.53033ZM0 6.75H9V5.25H0V6.75Z"
+                                fill="#D9818E" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="font-eupharia text-pink-bold text-[6.25rem] lg:block hidden">04</div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:pt-[7.875rem] lg:pb-[13.438rem] py-[4.375rem] relative">
+        <img src="assets/lines.png" class="absolute right-0 top-[3.625rem] -z-10 lg:block hidden" width="609" height="609" alt="">
+        <div class="container mx-auto px-6">
+            <h1
+                class="font-bold md:text-[3.25rem] text-[1.875rem] text-center uppercase md:mb-[3.375rem] mb-[2.938rem] leading-11">
+                Was glückliche <br class="lg:hidden"><span class="text-pink-bold">Kunden sagen</span></h1>
+            <div class="grid lg:grid-cols-3 lg:gap-16 gap-8">
+                <div>
+                    <svg width="72" height="12" viewBox="0 0 72 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M21 0L22.3471 4.1459H26.7063L23.1796 6.7082L24.5267 10.8541L21 8.2918L17.4733 10.8541L18.8204 6.7082L15.2937 4.1459H19.6529L21 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M36 0L37.3471 4.1459H41.7063L38.1796 6.7082L39.5267 10.8541L36 8.2918L32.4733 10.8541L33.8204 6.7082L30.2937 4.1459H34.6529L36 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M51 0L52.3471 4.1459H56.7063L53.1796 6.7082L54.5267 10.8541L51 8.2918L47.4733 10.8541L48.8204 6.7082L45.2937 4.1459H49.6529L51 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M66 0L67.3471 4.1459H71.7063L68.1796 6.7082L69.5267 10.8541L66 8.2918L62.4733 10.8541L63.8204 6.7082L60.2937 4.1459H64.6529L66 0Z"
+                            fill="#D9818E" />
+                    </svg>
+                    <p class="mb-6 mt-4 sm:mt-6">Vielen Dank, was du für Fabian und mich in den letzten Monaten gemacht
+                        hast. Das war genau, was wir brauchten. Fabian hat sich sehr verändert, ist selbstbewusster
+                        geworden und seine Blockaden haben sich völlig gelöst</p>
+                    <div class="flex items-center">
+                        <img src="assets/test-1.webp" width="70" height="70">
+                        <div class="uppercase ml-[1.25rem] text-lake">
+                            <h5 class="font-bold sm:text-xl text-sm leading-12 sm:mb-2 mb-[0.875rem]">Elfi priesch, juli
+                                22</h5>
+                            <h6 class="sm:text-17 text-xs tracking-[2px]">Kundin</h6>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <svg width="72" height="12" viewBox="0 0 72 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M21 0L22.3471 4.1459H26.7063L23.1796 6.7082L24.5267 10.8541L21 8.2918L17.4733 10.8541L18.8204 6.7082L15.2937 4.1459H19.6529L21 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M36 0L37.3471 4.1459H41.7063L38.1796 6.7082L39.5267 10.8541L36 8.2918L32.4733 10.8541L33.8204 6.7082L30.2937 4.1459H34.6529L36 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M51 0L52.3471 4.1459H56.7063L53.1796 6.7082L54.5267 10.8541L51 8.2918L47.4733 10.8541L48.8204 6.7082L45.2937 4.1459H49.6529L51 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M66 0L67.3471 4.1459H71.7063L68.1796 6.7082L69.5267 10.8541L66 8.2918L62.4733 10.8541L63.8204 6.7082L60.2937 4.1459H64.6529L66 0Z"
+                            fill="#D9818E" />
+                    </svg>
+                    <p class="mb-6 mt-4 sm:mt-6">Ich bin so unendlich dankbar, dass ich dich gefunden habe und mich
+                        getraut habe, den Weg mit dir zu gehen. Mir geht es so viel besser, ich fühle mich so viel
+                        klarer, mutiger und zuversichtlicher, DANKE!</p>
+                    <div class="flex items-center">
+                        <img src="assets/test-2.webp" width="70" height="70">
+                        <div class="uppercase ml-[1.25rem] text-lake">
+                            <h5 class="font-bold sm:text-xl text-sm leading-12 sm:mb-2 mb-[0.875rem]">Martina schmidt,
+                                Sept 22</h5>
+                            <h6 class="tracking-[2px]">Kundin</h6>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <svg width="72" height="12" viewBox="0 0 72 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M21 0L22.3471 4.1459H26.7063L23.1796 6.7082L24.5267 10.8541L21 8.2918L17.4733 10.8541L18.8204 6.7082L15.2937 4.1459H19.6529L21 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M36 0L37.3471 4.1459H41.7063L38.1796 6.7082L39.5267 10.8541L36 8.2918L32.4733 10.8541L33.8204 6.7082L30.2937 4.1459H34.6529L36 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M51 0L52.3471 4.1459H56.7063L53.1796 6.7082L54.5267 10.8541L51 8.2918L47.4733 10.8541L48.8204 6.7082L45.2937 4.1459H49.6529L51 0Z"
+                            fill="#D9818E" />
+                        <path
+                            d="M66 0L67.3471 4.1459H71.7063L68.1796 6.7082L69.5267 10.8541L66 8.2918L62.4733 10.8541L63.8204 6.7082L60.2937 4.1459H64.6529L66 0Z"
+                            fill="#D9818E" />
+                    </svg>
+                    <p class="mb-6 mt-4 sm:mt-6">Ich fühle mich wie neu geboren, ich habe keine Panikattacken und keine
+                        Ängste mehr! Ich habe das Gefühl durch die Arbeit mit dir, dass mein Rucksack sich mehr und mehr
+                        leert. Ich kann jedem nur ein Gespräch mit Nicole ans Herz legen.</p>
+                    <div class="flex items-center">
+                        <img src="assets/test-3.webp" width="70" height="70">
+                        <div class="uppercase ml-[1.25rem] text-lake">
+                            <h5 class="font-bold sm:text-xl text-sm leading-12 sm:mb-2 mb-[0.875rem]">Michaela herzog
+                            </h5>
+                            <h6 class="tracking-[2px]">Kundin</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:pt-[7.25rem] lg:pb-20 pt-20 pb-[5.625rem] bg-pink-light">
+        <div class="container mx-auto px-6">
+            <div class="lg:flex gap-6 justify-between items-center">
+                <h2 class="font-eupharia lg:text-[5rem] text-[2.5rem] leading-09 lg:min-w-[28.125rem]">Das erwartet
+                    dich<br>
+                    <span class="text-pink-bold">in einem Coaching</span>
+                </h2>
+                <p class="max-w-[42rem] lg:mt-0 mt-4">Hast du Schmerzen oder körperliche Beschwerden? Willst du
+                    erfolgreicher sein?
+                    Möchtest du deine Beziehungen optimaler gestalten? Möchtest du weniger Stress im Leben haben? Willst
+                    du dauerhaft gesund bleiben? </p>
+            </div>
+            <div class="grid lg:grid-cols-3 gap-[1.313rem] mt-[5.5rem]">
+                <div
+                    class="bg-pink-bold text-white sm:p-[2.625rem_1.875rem_1.813rem_3.125rem] p-[1.938rem_0.75rem_2.125rem_1.313rem]">
+                    <div class="mb-6 flex lg:block items-center">
+                        <img src="assets/krisenmodus.png" width="57" height="57" class="mr-6 lg:mb-[1.25rem]">
+                        <h6 class="sm:text-[1.625rem] text-xl leading-12 font-bold">KRISENMODUS</h6>
+                    </div>
+                    <p class="sm:text-17 text-base leading-17">Wir holen dich aus dem Krisenmodus raus, denn nur wenn
+                        Zweifel und Ängste weg sind, können wir den nächsten Schritt angehen.</p>
+                </div>
+                <div
+                    class="bg-pink-bold text-white sm:p-[2.625rem_1.875rem_1.813rem_3.125rem] p-[1.938rem_0.75rem_2.125rem_1.313rem]">
+                    <div class="mb-6 flex lg:block items-center">
+                        <img src="assets/denkmuster.png" width="57" height="57" class="mr-6 lg:mb-[1.25rem]">
+                        <h6 class="sm:text-[1.625rem] text-xl leading-12 font-bold">DENKMUSTER</h6>
+                    </div>
+                    <p class="sm:text-17 text-base leading-17">Wir lösen alte Strukturen und Denkmuster auf, die dich
+                        daran hindern, ein noch wundervolleres Leben zu führen. Die Muster haben dich bis hierhin
+                        gebracht. Danke! Aber jetzt willst du mehr.</p>
+                </div>
+                <div
+                    class="bg-pink-bold text-white sm:p-[2.625rem_1.875rem_1.813rem_3.125rem] p-[1.938rem_0.75rem_2.125rem_1.313rem]">
+                    <div class="mb-6 flex lg:block items-center">
+                        <img src="assets/energie.png" width="57" height="57" class="mr-6 lg:mb-[1.25rem]">
+                        <h6 class="sm:text-[1.625rem] text-xl leading-12 font-bold">ENERGIE METHODEN</h6>
+                    </div>
+                    <p class="sm:text-17 text-base leading-17">Alte Glaubenssätze. Sie limitieren dich. Jetzt bekommst
+                        du die besten energetischen Methoden an die Hand, mit denen du sie teilweise in Minuten auflösen
+                        kannst. Damit dich der ganze alte Scheiß, der dir vielleicht noch im Weg steht, ab heute nicht
+                        mehr hindern kann.</p>
+                </div>
+            </div>
+            <div class="mt-[4.125rem]">
+                <a href="#"
+                    class="bg-pink-bold drop-shadow-button py-4 rounded-30 flex justify-center w-full sm:max-w-[35rem] max-w-sm mx-auto">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="align-middle inline sm:w-[26px] sm:h-[26px] w-[19px] h-[19px]">
+                        <path
+                            d="M8.14216 9.64049C8.28893 9.45272 8.43632 9.26545 8.58433 9.07878C8.96211 8.60049 9.35262 8.10582 9.72055 7.60673C10.1958 6.9615 10.1634 6.66369 9.55573 6.09098C9.50519 6.04347 9.45186 5.99881 9.39843 5.95435C9.35742 5.91984 9.31558 5.88529 9.27539 5.84915L8.7999 5.41905C8.34285 5.0057 7.87021 4.57825 7.40928 4.15414C7.05904 3.83194 6.71015 3.50851 6.36259 3.18378C5.89836 2.75178 5.41834 2.30492 4.94142 1.87046C4.40818 1.38398 4.1029 1.38481 3.58217 1.87396C3.08606 2.33986 2.58512 2.8171 2.10069 3.27849C1.66754 3.6911 1.23363 4.10287 0.798979 4.51391C0.608266 4.69124 0.456424 4.90622 0.353033 5.14512C0.249642 5.384 0.196944 5.6417 0.198266 5.90196C0.201956 6.31054 0.253822 6.71728 0.352802 7.11375C0.604345 8.19558 1.14404 9.16561 1.66611 10.1043L1.79532 10.3371C3.14973 12.783 4.61532 14.7343 6.27707 16.3027C6.5847 16.5928 6.87593 16.9139 7.15792 17.2244C7.53389 17.6579 7.93914 18.065 8.37083 18.4431C9.63542 19.4995 11.0234 20.5724 12.6138 21.7236C13.923 22.6711 15.0749 23.3568 16.2376 23.8817C17.0877 24.2776 18.0131 24.4867 18.9511 24.4948C19.3529 24.4948 19.7536 24.4539 20.1471 24.373L20.2093 24.3604C20.8068 24.2384 21.4248 24.1122 21.9448 23.6962C22.2029 23.4897 22.4846 23.2999 22.757 23.1163C22.8998 23.0201 23.0426 22.9237 23.1831 22.8246C23.309 22.736 23.4377 22.6505 23.5666 22.5649C23.8845 22.3658 24.1859 22.1416 24.4677 21.894C25.2477 21.1706 25.0843 20.6698 24.5383 20.0488C23.9415 19.3699 23.3591 18.6568 22.795 17.9675C22.5707 17.6929 22.3457 17.4188 22.1204 17.1451C21.9432 16.9307 21.7671 16.7154 21.5919 16.4991C21.2536 16.0832 20.9038 15.6531 20.547 15.2402C19.8686 14.4554 19.5813 14.4302 18.7393 15.0816C18.1573 15.5323 17.5703 15.9951 17.0018 16.4431C16.6438 16.7252 16.2855 17.007 15.9267 17.2884C15.8188 17.3729 15.7057 17.4515 15.5963 17.5274L15.5278 17.575C15.3086 17.3462 15.0898 17.1175 14.8715 16.8888C12.6463 14.5628 10.3473 12.1587 7.83381 10.0146C7.85954 9.98392 7.88435 9.9544 7.90805 9.92603C7.99542 9.82127 8.07037 9.73195 8.14216 9.64049ZM6.68776 10.3246C8.24644 11.9966 9.80426 13.6697 11.3612 15.3437L13.5603 17.7067C13.6526 17.8061 13.7466 17.9041 13.8406 18.0019C13.9982 18.1659 14.1611 18.3364 14.313 18.5094C14.8023 19.067 15.3663 19.137 16.1993 18.7434C16.462 18.6056 16.7074 18.4371 16.9303 18.2415C17.0056 18.1804 17.0807 18.1197 17.1568 18.0612C17.7375 17.6161 18.3156 17.1679 18.9053 16.7112L19.5514 16.2106L23.5 21.0251C23.2976 21.166 23.0948 21.3123 22.8977 21.4545C22.3519 21.8653 21.7816 22.2425 21.1901 22.5843C20.7214 22.8421 20.1295 22.9243 19.5636 22.9868C18.3638 23.1192 17.2726 22.9151 16.3183 22.3818L16.1338 22.2783C15.1883 21.7499 14.2106 21.2036 13.3138 20.5783C12.0756 19.7279 10.8846 18.8111 9.74577 17.832C9.1917 17.3321 8.66316 16.8048 8.16215 16.2519C7.80519 15.871 7.43634 15.4772 7.05466 15.1085C6.07167 14.1596 5.14444 13.0124 4.13683 11.4979C3.24252 10.1543 2.55763 8.74585 2.00541 7.54552C1.79551 7.08905 1.59052 6.5463 1.66077 5.98105C1.67479 5.76159 1.75049 5.55059 1.8792 5.37216C2.48965 4.68002 3.12931 3.99181 3.74787 3.3264C3.92404 3.137 4.10008 2.94742 4.27597 2.75761C5.66927 4.33146 7.19004 5.81069 8.63213 7.17776C8.17168 7.80883 7.63473 8.38049 7.03355 8.87965C6.99591 8.91038 6.95713 8.93958 6.91837 8.96897C6.84233 9.02459 6.76939 9.08434 6.69986 9.1479C6.29266 9.53328 6.28896 9.89651 6.68776 10.3242V10.3246Z"
+                            fill="white" />
+                        <path
+                            d="M20.4539 3.60265C18.385 2.24951 15.9191 1.56911 12.694 1.46209C11.4698 1.41344 9.5253 1.80828 8.42529 2.19951C8.235 2.26694 8.05562 2.36183 7.89288 2.48116C7.65999 2.65384 7.59263 2.8928 7.7128 3.12027C7.84765 3.37539 8.07458 3.30844 8.21014 3.2686C8.23649 3.26081 8.26285 3.25304 8.28879 3.24689C9.80749 2.89263 10.9818 2.73481 12.0938 2.73481H12.1094C13.3302 2.74205 14.5462 2.88587 15.7348 3.16368C18.5584 3.80298 20.7635 5.15797 22.4762 7.30617C24.0195 9.24187 24.5893 11.4378 24.2182 14.0193C24.1292 14.6508 23.9577 15.2679 23.7075 15.8548C23.5374 16.2542 23.5167 16.5884 23.6422 16.9052C23.6692 16.9932 23.7153 17.0745 23.7771 17.1429C23.8388 17.2113 23.9151 17.2653 24 17.3012C24.0503 17.3186 24.1034 17.3276 24.1567 17.3275C24.2773 17.3235 24.3948 17.2882 24.4975 17.2251C24.7873 17.06 24.9945 16.7995 25.1496 16.4048C26.0862 14.0224 26.1352 11.6692 25.2951 9.41054C24.4336 7.09407 22.8048 5.14025 20.4539 3.60265Z"
+                            fill="white" />
+                        <path
+                            d="M20.0166 13.2721C20.1222 13.4154 20.2847 13.5929 20.528 13.5929C20.5702 13.5928 20.6122 13.5878 20.6531 13.5781C20.963 13.5054 21.0193 13.2013 21.0464 13.0551C21.1733 12.3583 21.0846 11.6395 20.7923 10.9942C20.5583 10.4595 20.3318 9.99367 20.0993 9.57008C19.4265 8.34332 18.7156 7.49439 17.8627 6.89853C16.1114 5.67494 14.6223 5.0879 13.0347 4.99481C12.2758 4.95045 11.672 5.04681 11.1348 5.29834C10.788 5.46089 10.7971 5.70435 10.8334 5.83505C10.9108 6.11341 11.1718 6.10264 11.3278 6.0958C11.443 6.09098 11.5655 6.08075 11.7024 6.06509C11.9092 6.04091 12.1159 6.01497 12.3226 5.98897L12.5797 5.95697C13.397 5.96597 14.2373 6.17197 15.2235 6.60438C16.9793 7.37446 18.1929 8.45667 18.9335 9.91253C19.0554 10.1518 19.1686 10.4016 19.2783 10.6432C19.3545 10.8111 19.4308 10.9792 19.5104 11.1455C19.7151 11.5336 19.8083 11.9705 19.7797 12.4083C19.7479 12.7156 19.8324 13.0238 20.0166 13.2721Z"
+                            fill="white" />
+                    </svg>
+                    <span class="align-middle ml-4 text-white font-bold sm:text-lg text-sm tracking-[0.5px]">Jetzt
+                        kostenloses Gespräch vereinbaren</span>
+                </a>
+                <div class="flex items-center sm:gap-[1.25rem] gap-4 justify-center sm:mt-2">
+                    <div>
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                            <g clip-path="url(#clip0_520_85)">
+                                <path
+                                    d="M9.50011 0C4.25334 0 0 4.25288 0 9.50012C0 14.7464 4.25334 18.9998 9.50011 18.9998C14.7467 18.9998 19 14.7464 19 9.50012C19 4.25288 14.7467 0 9.50011 0Z"
+                                    fill="#D9818E" />
+                                <path
+                                    d="M10.6755 5.56886C10.5558 5.41557 10.3969 5.33887 10.1987 5.33887C10.0229 5.33887 9.90323 5.37253 9.8397 5.43985C9.77605 5.50717 9.63957 5.68666 9.43022 5.97838C9.22075 6.27007 8.98049 6.53372 8.70941 6.76931C8.43821 7.0049 8.0764 7.2293 7.62396 7.44245C7.32105 7.5846 7.1097 7.70047 6.99007 7.79024C6.87036 7.88 6.81055 8.02023 6.81055 8.21094C6.81055 8.37552 6.87128 8.52043 6.99287 8.64569C7.11434 8.77103 7.25373 8.8336 7.41077 8.8336C7.7398 8.8336 8.37931 8.469 9.32924 7.73976V12.8444C9.32924 13.1437 9.3984 13.3699 9.53679 13.5232C9.67511 13.6765 9.85835 13.7532 10.0865 13.7532C10.5988 13.7532 10.855 13.3774 10.855 12.6257V6.20275C10.855 5.9335 10.7952 5.72227 10.6755 5.56886Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_520_85">
+                                    <rect width="19" height="19" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Fragebogen zum Kennenlernen
+                            ausfüllen</span>
+                    </div>
+                    <div>
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                            <g clip-path="url(#clip0_520_67)">
+                                <path
+                                    d="M9.50011 0.000488281C4.25334 0.000488281 0 4.25337 0 9.5006C0 14.7469 4.25334 19.0003 9.50011 19.0003C14.7467 19.0003 19 14.7469 19 9.5006C19 4.25337 14.7467 0.000488281 9.50011 0.000488281Z"
+                                    fill="#D9818E" />
+                                <path
+                                    d="M12.2461 12.4686C12.0927 12.3489 11.8702 12.289 11.5785 12.289H8.65035C8.74379 12.147 8.83546 12.0254 8.92523 11.9244C9.13462 11.6702 9.5207 11.313 10.0836 10.853C10.6464 10.393 11.0475 10.0556 11.2868 9.84051C11.5261 9.62553 11.7608 9.32821 11.9908 8.9486C12.2208 8.56906 12.3358 8.14741 12.3358 7.68366C12.3358 7.3883 12.2806 7.10308 12.1704 6.82821C12.06 6.55333 11.9057 6.31124 11.7076 6.10177C11.5093 5.89237 11.2793 5.72786 11.0176 5.60811C10.6137 5.42859 10.1257 5.33887 9.55352 5.33887C9.07856 5.33887 8.6644 5.40898 8.31102 5.54922C7.95765 5.68945 7.66592 5.87369 7.43593 6.10177C7.20593 6.32992 7.03292 6.5842 6.91704 6.86466C6.80108 7.14513 6.74314 7.41438 6.74314 7.67244C6.74314 7.88559 6.80484 8.05389 6.92826 8.17731C7.05168 8.30074 7.20681 8.36243 7.39384 8.36243C7.60699 8.36243 7.7687 8.29511 7.87907 8.1605C7.98931 8.02586 8.08846 7.83332 8.17638 7.58272C8.26419 7.3322 8.32688 7.17883 8.36429 7.12273C8.64476 6.69272 9.02988 6.47762 9.51986 6.47762C9.75169 6.47762 9.96584 6.53005 10.1621 6.63471C10.3585 6.73944 10.5136 6.88626 10.6277 7.07505C10.7418 7.26396 10.7988 7.47806 10.7988 7.71732C10.7988 7.93801 10.7455 8.1633 10.6389 8.39325C10.5324 8.62321 10.3771 8.84762 10.1734 9.06639C9.96947 9.28517 9.71424 9.50306 9.40766 9.71988C9.2356 9.83584 8.94951 10.078 8.54941 10.4463C8.14919 10.8147 7.70046 11.2569 7.20313 11.773C7.08343 11.9002 6.97314 12.075 6.87216 12.2975C6.77118 12.52 6.7207 12.6986 6.7207 12.8332C6.7207 13.0426 6.79924 13.225 6.95629 13.3801C7.11337 13.5353 7.33211 13.6129 7.61261 13.6129H11.7412C11.988 13.6129 12.1722 13.5493 12.2938 13.4222C12.4152 13.2951 12.4761 13.1399 12.4761 12.9566C12.4761 12.751 12.3994 12.5883 12.2461 12.4686Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_520_67">
+                                    <rect width="19" height="19" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Passenden Online-Termin
+                            vereinbaren</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:py-[7.375rem] py-[3.75rem]">
+        <div class="container mx-auto px-4">
+            <header class="text-lake text-center">
+                <h6 class="text-lg tracking-[2px] leading-12 mb-3">FAQ</h6>
+                <h2 class="text-[2.5rem] font-bold leading-11">HÄUFIG GESTELLTE FRAGEN</h2>
+            </header>
+            <div class="lg:flex gap-4 mt-[4.125rem] tracking-[2px] font-bold text-lake">
+                <div class="sm:space-y-4 space-y-[0.625rem]">
+                    <div class="drop-shadow-dropdown bg-white px-[1.813rem]">
+                        <div
+                            class="sm:h-[6.5rem] h-[3.688rem] flex items-center justify-between cursor-pointer faq-question">
+                            <span class="">Werden auch Online-Coachings angeboten?</span>
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="transition-transform duration-300 ease-in-out ml-3">
+                                <path
+                                    d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z"
+                                    fill="#0C3133" />
+                            </svg>
+                        </div>
+                        <div class="overflow-hidden w-full faq-answer h-0 transition-height duration-300 ease-in-out">
+                            <p class="pb-6">Ja, ich biete sowohl persönliches als auch Online- oder auch
+                                Telefon-Coachings an.</p>
+                        </div>
+                    </div>
+                    <div class="drop-shadow-dropdown bg-white px-[1.813rem]">
+                        <div
+                            class="sm:h-[6.5rem] h-[3.688rem] flex items-center justify-between cursor-pointer faq-question">
+                            <span class="">Wie individuell ist das Coaching auf mich zugeschnitten?</span>
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="transition-transform duration-300 ease-in-out ml-3">
+                                <path
+                                    d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z"
+                                    fill="#0C3133" />
+                            </svg>
+                        </div>
+                        <div class="overflow-hidden w-full faq-answer h-0 transition-height duration-300 ease-in-out">
+                            <p class="pb-6">Jedes Coaching ist ein Unikat und so individuell wie der Klient selbst und
+                                seine Ziele. In meinen Coachings geht es nicht um Impulse oder Wissensvermittlung
+                                sondern um individuelle Themen. Ich unterstütze meine Klienten dabei, die für sich
+                                passende Lösung und damit die größte Hebelwirkung im Hinblick auf gesteckte Ziele zu
+                                entwickeln.<br></p>
+                        </div>
+                    </div>
+                    <div class="drop-shadow-dropdown bg-white px-[1.813rem]">
+                        <div
+                            class="sm:h-[6.5rem] h-[3.688rem] flex items-center justify-between cursor-pointer faq-question">
+                            <span class="">Muss ich irgendwo hinfahren? Ist alles online?</span>
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="transition-transform duration-300 ease-in-out ml-3">
+                                <path
+                                    d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z"
+                                    fill="#0C3133" />
+                            </svg>
+                        </div>
+                        <div class="overflow-hidden w-full faq-answer h-0 transition-height duration-300 ease-in-out">
+                            <p class="pb-6">Zeitliche / örtliche Flexibilität Durch den großen Teil an Online Coaching
+                                ist es egal, wo du wohnst. Meine Kundinnen kommen aus ganz Europa. Daher kannst du dir
+                                auch die Termine ganz leicht möglich machen und druchstarten<br></p>
+                        </div>
+                    </div>
+                    <div class="drop-shadow-dropdown bg-white px-[1.813rem]">
+                        <div
+                            class="sm:h-[6.5rem] h-[3.688rem] flex items-center justify-between cursor-pointer faq-question">
+                            <span class="">Wie ist der Ablauf des Coachings?</span>
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="transition-transform duration-300 ease-in-out ml-3">
+                                <path
+                                    d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z"
+                                    fill="#0C3133" />
+                            </svg>
+                        </div>
+                        <div class="overflow-hidden w-full faq-answer h-0 transition-height duration-300 ease-in-out">
+                            <p class="pb-6">in einem kostenmlosen 10 mInütigen Gespräch ( Telefon ) höre ich mir deine
+                                Heruasforderung an und wenn die Chemie zwischen uns stimmt, dann vereinabren wir unseren
+                                erstn Termin. Bereits nch unserem ersten Treffen fühlst du eine starke
+                                Erleichterung.<br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:space-y-4 space-y-[0.625rem] lg:mt-0 sm:mt-4 mt-[0.625rem]">
+                    <div class="drop-shadow-dropdown bg-white px-[1.813rem]">
+                        <div
+                            class="sm:h-[6.5rem] h-[3.688rem] flex items-center justify-between cursor-pointer faq-question">
+                            <span class="">Was bedeutet Coaching?</span>
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="transition-transform duration-300 ease-in-out ml-3">
+                                <path
+                                    d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z"
+                                    fill="#0C3133" />
+                            </svg>
+                        </div>
+                        <div class="overflow-hidden w-full faq-answer h-0 transition-height duration-300 ease-in-out">
+                            <p class="pb-6">Ziel ist es, den Fokus auf das Erleben von eigenen Ressourcen und der
+                                eigenen Lösungskompetenz zu richten.
+                                <br><br>
+                                Mit Hilfe der von mir erlernten Methodenvielfalt wird ein sehr individuelles und
+                                umfassendes Eingehen auf meine Klienten / die Klientinnen möglich. Dadurch, dass sowohl
+                                die kognitiv-rationale als auch die emotionale und unbewusste Ebene des Erlebens
+                                angesprochen wird, wirken die Coachings oft sehr wirkungsvoll und nachhaltig.
+                                <br><br>
+                                Coaching ist für mich vor allem „Erlebnisarbeit“, da in den Stunden der Klient/die
+                                Klientin auch tatsächlich etwas signifikantes erlebt und fühlt und nicht „nur“ geredet
+                                wird. Erst durch diese besondere Qualität geht das Gehirn in den Bereitschaftsmodus der
+                                Veränderung, Strukturbildung oder auch Neu-Prägung.<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="drop-shadow-dropdown bg-white px-[1.813rem]">
+                        <div
+                            class="sm:h-[6.5rem] h-[3.688rem] flex items-center justify-between cursor-pointer faq-question">
+                            <span class="">Was ist Hauptbestandteil des Coachings?</span>
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="transition-transform duration-300 ease-in-out ml-3">
+                                <path
+                                    d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z"
+                                    fill="#0C3133" />
+                            </svg>
+                        </div>
+                        <div class="overflow-hidden w-full faq-answer h-0 transition-height duration-300 ease-in-out">
+                            <p class="pb-6">Blockaden und Ängste adé Ich zeige dir, wie du endlich den ganzen Scheiß,
+                                der dir seit Jahren Ängste und Zweifel bringt und Dich blockiert, endlich beseitigst. Du
+                                erlebst ein ganz neues Level an Gesundheit und Erfolg.<br></p>
+                        </div>
+                    </div>
+                    <div class="drop-shadow-dropdown bg-white px-[1.813rem]">
+                        <div
+                            class="sm:h-[6.5rem] h-[3.688rem] flex items-center justify-between cursor-pointer faq-question">
+                            <span class="">Seit wann machst du das, Nicole?</span>
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="transition-transform duration-300 ease-in-out ml-3">
+                                <path
+                                    d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z"
+                                    fill="#0C3133" />
+                            </svg>
+                        </div>
+                        <div class="overflow-hidden w-full faq-answer h-0 transition-height duration-300 ease-in-out">
+                            <p class="pb-6">Du erhältst erstklassige Unterstützung. Mit über 25 Jahren Erfahrung sind
+                                meine Tools, Methoden und Strategien allesamt über unzählige Male erprobt und bestätigt
+                                worden. Jahrelang wurden sie verfeinert, damit du jetzt im Turbo dein Ziel
+                                erreichst.<br></p>
+                        </div>
+                    </div>
+                    <div class="drop-shadow-dropdown bg-white px-[1.813rem]">
+                        <div
+                            class="sm:h-[6.5rem] h-[3.688rem] flex items-center justify-between cursor-pointer faq-question">
+                            <span class="">Was, wenn ich mir unsicher bin?</span>
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="transition-transform duration-300 ease-in-out ml-3">
+                                <path
+                                    d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z"
+                                    fill="#0C3133" />
+                            </svg>
+                        </div>
+                        <div class="overflow-hidden w-full faq-answer h-0 transition-height duration-300 ease-in-out">
+                            <p class="pb-6">Keine Sorge, ich bin von meiner Arbeit und meinem Wirken sehr überzeugt,
+                                weshalb ich dir eine Geld-zurück-Garantie gebe!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:pt-[3.375rem] lg:pb-0 pb-[2.313rem]">
+        <div class="max-w-[1536px] lgx:container mx-auto lg:flex flex-row-reverse items-center lg:px-0 px-[1.25rem]">
+            <img src="assets/contact.jpg" class="lg:w-1/2 w-full mx-auto lg:min-h-[50rem] lg:object-cover">
+            <div class="lg:w-1/2 lg:px-8">
+                <div class="lg:max-w-[36.25rem] mx-auto">
+                    <div class="font-eupharia lg:text-[4.375rem] text-[2.5rem] leading-09 lg:mb-8 lg:mt-0 my-6">Ich
+                        freue mich auf <span class="text-pink-bold">dich!</span></div>
+                    <p class="pr-4 text-gray">Mit mir erreichst du dein Ziel rasant, denn eine Zusammenarbeit mit mir
+                        ist kein 08/15 Coaching, sondern wir sind 24/7 ein Team, bis du dein Ziel erreicht hast. Stell
+                        dir vor, jemand nimmt dich an die Hand und zeigt dir Schritt für Schritt, wie du das bekommst,
+                        was du wirklich möchtest.</p>
+                    <div class="lg:mt-[4.125rem] mt-[2.25rem]">
+                        <a href="#"
+                            class="bg-pink-bold drop-shadow-button py-4 rounded-30 flex justify-center w-full sm:max-w-[35rem] max-w-sm mx-auto">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="align-middle inline sm:w-[26px] sm:h-[26px] w-[19px] h-[19px]">
+                                <path
+                                    d="M8.14216 9.64049C8.28893 9.45272 8.43632 9.26545 8.58433 9.07878C8.96211 8.60049 9.35262 8.10582 9.72055 7.60673C10.1958 6.9615 10.1634 6.66369 9.55573 6.09098C9.50519 6.04347 9.45186 5.99881 9.39843 5.95435C9.35742 5.91984 9.31558 5.88529 9.27539 5.84915L8.7999 5.41905C8.34285 5.0057 7.87021 4.57825 7.40928 4.15414C7.05904 3.83194 6.71015 3.50851 6.36259 3.18378C5.89836 2.75178 5.41834 2.30492 4.94142 1.87046C4.40818 1.38398 4.1029 1.38481 3.58217 1.87396C3.08606 2.33986 2.58512 2.8171 2.10069 3.27849C1.66754 3.6911 1.23363 4.10287 0.798979 4.51391C0.608266 4.69124 0.456424 4.90622 0.353033 5.14512C0.249642 5.384 0.196944 5.6417 0.198266 5.90196C0.201956 6.31054 0.253822 6.71728 0.352802 7.11375C0.604345 8.19558 1.14404 9.16561 1.66611 10.1043L1.79532 10.3371C3.14973 12.783 4.61532 14.7343 6.27707 16.3027C6.5847 16.5928 6.87593 16.9139 7.15792 17.2244C7.53389 17.6579 7.93914 18.065 8.37083 18.4431C9.63542 19.4995 11.0234 20.5724 12.6138 21.7236C13.923 22.6711 15.0749 23.3568 16.2376 23.8817C17.0877 24.2776 18.0131 24.4867 18.9511 24.4948C19.3529 24.4948 19.7536 24.4539 20.1471 24.373L20.2093 24.3604C20.8068 24.2384 21.4248 24.1122 21.9448 23.6962C22.2029 23.4897 22.4846 23.2999 22.757 23.1163C22.8998 23.0201 23.0426 22.9237 23.1831 22.8246C23.309 22.736 23.4377 22.6505 23.5666 22.5649C23.8845 22.3658 24.1859 22.1416 24.4677 21.894C25.2477 21.1706 25.0843 20.6698 24.5383 20.0488C23.9415 19.3699 23.3591 18.6568 22.795 17.9675C22.5707 17.6929 22.3457 17.4188 22.1204 17.1451C21.9432 16.9307 21.7671 16.7154 21.5919 16.4991C21.2536 16.0832 20.9038 15.6531 20.547 15.2402C19.8686 14.4554 19.5813 14.4302 18.7393 15.0816C18.1573 15.5323 17.5703 15.9951 17.0018 16.4431C16.6438 16.7252 16.2855 17.007 15.9267 17.2884C15.8188 17.3729 15.7057 17.4515 15.5963 17.5274L15.5278 17.575C15.3086 17.3462 15.0898 17.1175 14.8715 16.8888C12.6463 14.5628 10.3473 12.1587 7.83381 10.0146C7.85954 9.98392 7.88435 9.9544 7.90805 9.92603C7.99542 9.82127 8.07037 9.73195 8.14216 9.64049ZM6.68776 10.3246C8.24644 11.9966 9.80426 13.6697 11.3612 15.3437L13.5603 17.7067C13.6526 17.8061 13.7466 17.9041 13.8406 18.0019C13.9982 18.1659 14.1611 18.3364 14.313 18.5094C14.8023 19.067 15.3663 19.137 16.1993 18.7434C16.462 18.6056 16.7074 18.4371 16.9303 18.2415C17.0056 18.1804 17.0807 18.1197 17.1568 18.0612C17.7375 17.6161 18.3156 17.1679 18.9053 16.7112L19.5514 16.2106L23.5 21.0251C23.2976 21.166 23.0948 21.3123 22.8977 21.4545C22.3519 21.8653 21.7816 22.2425 21.1901 22.5843C20.7214 22.8421 20.1295 22.9243 19.5636 22.9868C18.3638 23.1192 17.2726 22.9151 16.3183 22.3818L16.1338 22.2783C15.1883 21.7499 14.2106 21.2036 13.3138 20.5783C12.0756 19.7279 10.8846 18.8111 9.74577 17.832C9.1917 17.3321 8.66316 16.8048 8.16215 16.2519C7.80519 15.871 7.43634 15.4772 7.05466 15.1085C6.07167 14.1596 5.14444 13.0124 4.13683 11.4979C3.24252 10.1543 2.55763 8.74585 2.00541 7.54552C1.79551 7.08905 1.59052 6.5463 1.66077 5.98105C1.67479 5.76159 1.75049 5.55059 1.8792 5.37216C2.48965 4.68002 3.12931 3.99181 3.74787 3.3264C3.92404 3.137 4.10008 2.94742 4.27597 2.75761C5.66927 4.33146 7.19004 5.81069 8.63213 7.17776C8.17168 7.80883 7.63473 8.38049 7.03355 8.87965C6.99591 8.91038 6.95713 8.93958 6.91837 8.96897C6.84233 9.02459 6.76939 9.08434 6.69986 9.1479C6.29266 9.53328 6.28896 9.89651 6.68776 10.3242V10.3246Z"
+                                    fill="white" />
+                                <path
+                                    d="M20.4539 3.60265C18.385 2.24951 15.9191 1.56911 12.694 1.46209C11.4698 1.41344 9.5253 1.80828 8.42529 2.19951C8.235 2.26694 8.05562 2.36183 7.89288 2.48116C7.65999 2.65384 7.59263 2.8928 7.7128 3.12027C7.84765 3.37539 8.07458 3.30844 8.21014 3.2686C8.23649 3.26081 8.26285 3.25304 8.28879 3.24689C9.80749 2.89263 10.9818 2.73481 12.0938 2.73481H12.1094C13.3302 2.74205 14.5462 2.88587 15.7348 3.16368C18.5584 3.80298 20.7635 5.15797 22.4762 7.30617C24.0195 9.24187 24.5893 11.4378 24.2182 14.0193C24.1292 14.6508 23.9577 15.2679 23.7075 15.8548C23.5374 16.2542 23.5167 16.5884 23.6422 16.9052C23.6692 16.9932 23.7153 17.0745 23.7771 17.1429C23.8388 17.2113 23.9151 17.2653 24 17.3012C24.0503 17.3186 24.1034 17.3276 24.1567 17.3275C24.2773 17.3235 24.3948 17.2882 24.4975 17.2251C24.7873 17.06 24.9945 16.7995 25.1496 16.4048C26.0862 14.0224 26.1352 11.6692 25.2951 9.41054C24.4336 7.09407 22.8048 5.14025 20.4539 3.60265Z"
+                                    fill="white" />
+                                <path
+                                    d="M20.0166 13.2721C20.1222 13.4154 20.2847 13.5929 20.528 13.5929C20.5702 13.5928 20.6122 13.5878 20.6531 13.5781C20.963 13.5054 21.0193 13.2013 21.0464 13.0551C21.1733 12.3583 21.0846 11.6395 20.7923 10.9942C20.5583 10.4595 20.3318 9.99367 20.0993 9.57008C19.4265 8.34332 18.7156 7.49439 17.8627 6.89853C16.1114 5.67494 14.6223 5.0879 13.0347 4.99481C12.2758 4.95045 11.672 5.04681 11.1348 5.29834C10.788 5.46089 10.7971 5.70435 10.8334 5.83505C10.9108 6.11341 11.1718 6.10264 11.3278 6.0958C11.443 6.09098 11.5655 6.08075 11.7024 6.06509C11.9092 6.04091 12.1159 6.01497 12.3226 5.98897L12.5797 5.95697C13.397 5.96597 14.2373 6.17197 15.2235 6.60438C16.9793 7.37446 18.1929 8.45667 18.9335 9.91253C19.0554 10.1518 19.1686 10.4016 19.2783 10.6432C19.3545 10.8111 19.4308 10.9792 19.5104 11.1455C19.7151 11.5336 19.8083 11.9705 19.7797 12.4083C19.7479 12.7156 19.8324 13.0238 20.0166 13.2721Z"
+                                    fill="white" />
+                            </svg>
+                            <span
+                                class="align-middle ml-4 text-white font-bold sm:text-lg text-sm tracking-[0.5px]">Jetzt
+                                kostenloses Gespräch vereinbaren</span>
+                        </a>
+                        <div class="flex items-center sm:gap-[1.25rem] gap-4 justify-center sm:mt-2">
+                            <div>
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                                    <g clip-path="url(#clip0_520_85)">
+                                        <path
+                                            d="M9.50011 0C4.25334 0 0 4.25288 0 9.50012C0 14.7464 4.25334 18.9998 9.50011 18.9998C14.7467 18.9998 19 14.7464 19 9.50012C19 4.25288 14.7467 0 9.50011 0Z"
+                                            fill="#D9818E" />
+                                        <path
+                                            d="M10.6755 5.56886C10.5558 5.41557 10.3969 5.33887 10.1987 5.33887C10.0229 5.33887 9.90323 5.37253 9.8397 5.43985C9.77605 5.50717 9.63957 5.68666 9.43022 5.97838C9.22075 6.27007 8.98049 6.53372 8.70941 6.76931C8.43821 7.0049 8.0764 7.2293 7.62396 7.44245C7.32105 7.5846 7.1097 7.70047 6.99007 7.79024C6.87036 7.88 6.81055 8.02023 6.81055 8.21094C6.81055 8.37552 6.87128 8.52043 6.99287 8.64569C7.11434 8.77103 7.25373 8.8336 7.41077 8.8336C7.7398 8.8336 8.37931 8.469 9.32924 7.73976V12.8444C9.32924 13.1437 9.3984 13.3699 9.53679 13.5232C9.67511 13.6765 9.85835 13.7532 10.0865 13.7532C10.5988 13.7532 10.855 13.3774 10.855 12.6257V6.20275C10.855 5.9335 10.7952 5.72227 10.6755 5.56886Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_520_85">
+                                            <rect width="19" height="19" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Fragebogen zum Kennenlernen
+                                    ausfüllen</span>
+                            </div>
+                            <div>
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="inline sm:w-[19px] sm:h-[19px] w-[10px] h-[10px]">
+                                    <g clip-path="url(#clip0_520_67)">
+                                        <path
+                                            d="M9.50011 0.000488281C4.25334 0.000488281 0 4.25337 0 9.5006C0 14.7469 4.25334 19.0003 9.50011 19.0003C14.7467 19.0003 19 14.7469 19 9.5006C19 4.25337 14.7467 0.000488281 9.50011 0.000488281Z"
+                                            fill="#D9818E" />
+                                        <path
+                                            d="M12.2461 12.4686C12.0927 12.3489 11.8702 12.289 11.5785 12.289H8.65035C8.74379 12.147 8.83546 12.0254 8.92523 11.9244C9.13462 11.6702 9.5207 11.313 10.0836 10.853C10.6464 10.393 11.0475 10.0556 11.2868 9.84051C11.5261 9.62553 11.7608 9.32821 11.9908 8.9486C12.2208 8.56906 12.3358 8.14741 12.3358 7.68366C12.3358 7.3883 12.2806 7.10308 12.1704 6.82821C12.06 6.55333 11.9057 6.31124 11.7076 6.10177C11.5093 5.89237 11.2793 5.72786 11.0176 5.60811C10.6137 5.42859 10.1257 5.33887 9.55352 5.33887C9.07856 5.33887 8.6644 5.40898 8.31102 5.54922C7.95765 5.68945 7.66592 5.87369 7.43593 6.10177C7.20593 6.32992 7.03292 6.5842 6.91704 6.86466C6.80108 7.14513 6.74314 7.41438 6.74314 7.67244C6.74314 7.88559 6.80484 8.05389 6.92826 8.17731C7.05168 8.30074 7.20681 8.36243 7.39384 8.36243C7.60699 8.36243 7.7687 8.29511 7.87907 8.1605C7.98931 8.02586 8.08846 7.83332 8.17638 7.58272C8.26419 7.3322 8.32688 7.17883 8.36429 7.12273C8.64476 6.69272 9.02988 6.47762 9.51986 6.47762C9.75169 6.47762 9.96584 6.53005 10.1621 6.63471C10.3585 6.73944 10.5136 6.88626 10.6277 7.07505C10.7418 7.26396 10.7988 7.47806 10.7988 7.71732C10.7988 7.93801 10.7455 8.1633 10.6389 8.39325C10.5324 8.62321 10.3771 8.84762 10.1734 9.06639C9.96947 9.28517 9.71424 9.50306 9.40766 9.71988C9.2356 9.83584 8.94951 10.078 8.54941 10.4463C8.14919 10.8147 7.70046 11.2569 7.20313 11.773C7.08343 11.9002 6.97314 12.075 6.87216 12.2975C6.77118 12.52 6.7207 12.6986 6.7207 12.8332C6.7207 13.0426 6.79924 13.225 6.95629 13.3801C7.11337 13.5353 7.33211 13.6129 7.61261 13.6129H11.7412C11.988 13.6129 12.1722 13.5493 12.2938 13.4222C12.4152 13.2951 12.4761 13.1399 12.4761 12.9566C12.4761 12.751 12.3994 12.5883 12.2461 12.4686Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_520_67">
+                                            <rect width="19" height="19" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <span class="align-middle sm:text-sm text-[0.5rem] sm:pl-2">Passenden Online-Termin
+                                    vereinbaren</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="grid grid-cols-2 text-gray lg:text-xl text-sm mt-[4.563rem] gap-y-[1.188rem] lg:max-w-lg max-w-xs mx-auto lg:mx-0">
+                        <div>
+                            <img src="assets/instagram.png" width="25" height="25" class="inline lg:w-10 lg:h-10">
+                            <span class="align-middle ml-4">kapsnicole</span>
+                        </div>
+                        <div>
+                            <img src="assets/tiktok.png" width="25" height="25" class="inline lg:w-10 lg:h-10">
+                            <span class="align-middle ml-4">nicolekaps959</span>
+                        </div>
+                        <div>
+                            <img src="assets/facebook.png" width="25" height="25" class="inline lg:w-10 lg:h-10">
+                            <span class="align-middle ml-4">Nicole Kaps</span>
+                        </div>
+                        <div>
+                            <img src="assets/linkedin.png" width="25" height="25" class="inline lg:w-10 lg:h-10">
+                            <span class="align-middle ml-4">Nicole Kaps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-pink-light py-[3.125rem]">
+        <div class="container mx-auto px-6 flex lg:flex-row flex-col items-center">
+            <div class="mb-10 lg:mb-0">
+                <img src="assets/logo.png" class="inline" width="60" height="30">
+                <span class="font-bold text-xl align-middle ml-4">NICOLE KAPS</span>
+            </div>
+            <div class="flex lg:ml-auto gap-[4.375rem] text-sm leading-12 tracking-[2px]">
+                <div class="text-right space-y-2">
+                    <div>© 2023 Copyright</div>
+                    <div>All rights reserved</div>
+                </div>
+                <div class="lg:text-right font-bold space-y-2">
+                    <div><a href="#">Impressum</a></div>
+                    <div><a href="#">Datenschutz</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/script.js" defer></script>
+</body>
+
+</html>
