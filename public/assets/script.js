@@ -6,10 +6,12 @@ const mobileMenu = document.getElementById("mobile-menu")
 const playButton = document.getElementById("play-button")
 const video = document.querySelector("video")
 
-moreButton.addEventListener("click",()=>{
-    moreButton.remove()
-    hiddenText.classList.remove("hidden")
-})
+if (moreButton) {
+    moreButton.addEventListener("click",()=>{
+        moreButton.remove()
+        hiddenText.classList.remove("hidden")
+    })
+}
 
 
 function handleQuestion() {
@@ -17,7 +19,9 @@ function handleQuestion() {
     toggleExpand(this.nextElementSibling)
 }
 
-question.forEach((e) => e.addEventListener("click", handleQuestion))
+if (question) {
+    question.forEach((e) => e.addEventListener("click", handleQuestion))
+}
 
 window.toggleExpand = function (element) {
     if (!element.style.height || element.style.height == '0px') {
@@ -33,12 +37,16 @@ hamburger.addEventListener("click",()=>{
     mobileMenu.classList.toggle("pointer-events-none")
 })
 
-playButton.addEventListener("click",()=>{
-    playButton.classList.add("hidden")
-    video.play()
-})
+if (playButton) {
+    playButton.addEventListener("click",()=>{
+        playButton.classList.add("hidden")
+        video.play()
+    })
+}
 
-video.addEventListener("click",()=>{
-    playButton.classList.remove("hidden")
-    video.pause()
-})
+if (video) {
+    video.addEventListener("click",()=>{
+        playButton.classList.remove("hidden")
+        video.pause()
+    })
+}

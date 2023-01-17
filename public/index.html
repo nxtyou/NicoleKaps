@@ -15,38 +15,45 @@
 
 <body class="font-barlow text-black sm:text-17 text-xs leading-17">
     <div class="w-full h-screen bg-pink-light absolute top-0 -z-10 lg:block hidden"></div>
-    <nav class="lg:px-[3.125rem] px-6 mx-auto lg:pt-[4.4rem] pt-8 flex z-[500] lgx:container lg:static fixed top-0 left-0 right-0">
-        <div class="">
-            <img src="assets/logo.png" class="inline lg:w-[6.25rem]" width="40" height="20">
-            <span class="font-bold lg:text-[1.875rem] text-base align-middle lg:ml-4 ml-1 lg:hidden xl:inline">NICOLE KAPS</span>
-        </div>
-        <ul class="gap-3 text-lg items-center ml-auto mr-[2.75rem] lg:flex hidden">
-            <li><a href="#uber-mich">Über mich</a></li>
-            <li><a href="#">Angebote</a></li>
-            <li><a href="#">Ablauf</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Fakten</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">News</a></li>
-        </ul>
-        <div class="items-center lg:flex hidden">
-            <a href="#"
-                class="p-button bg-pink-bold drop-shadow-button text-white font-bold text-sm rounded-30 tracking-[0.5px]">Erstgespräch
-                vereinbaren</a>
-        </div>
-        <button type="button" class="lg:hidden ml-auto relative" id="hamburger">
-            <svg width="28" height="18" viewBox="0 0 28 18" fill="none" class="transition-opacity">
-                <line x1="0.998047" y1="9" x2="27.6647" y2="9" stroke="#D9818E" stroke-width="2"/>
-                <line x1="0.998047" y1="1" x2="27.6647" y2="1" stroke="#D9818E" stroke-width="2"/>
-                <line x1="1" y1="17" x2="28" y2="17" stroke="#D9818E" stroke-width="2"/>
-            </svg>
-            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" class="opacity-0 transition-opacity absolute top-0 left-0">
-                <line x1="0.53033" y1="1.46991" x2="27.53" y2="28.4696" stroke="#D9818E" stroke-width="1.5"/>
-                <line x1="1.20502" y1="28.4694" x2="28.2047" y2="1.46977" stroke="#D9818E" stroke-width="1.5"/>
-            </svg>
-        </button>
-    </nav>
-    <div class="w-screen h-screen bg-white fixed top-0 opacity-0 pointer-events-none z-50 lg:hidden transition-opacity duration-300 ease-in-out" id="mobile-menu">
+    <div
+        class="lg:px-[3.125rem] px-6 mx-auto lg:pt-[4.4rem] pt-8 z-[500] lgx:container lg:static fixed top-0 left-0 right-0">
+        <nav class="flex">
+            <div class="">
+                <img src="assets/logo.png" class="inline lg:w-[6.25rem]" width="40" height="20">
+                <span
+                    class="font-bold lg:text-[1.875rem] text-base align-middle lg:ml-4 ml-1 lg:hidden xl:inline">NICOLE
+                    KAPS</span>
+            </div>
+            <ul class="gap-3 text-lg items-center ml-auto mr-[2.75rem] lg:flex hidden">
+                <li><a href="#uber-mich">Über mich</a></li>
+                <li><a href="#">Angebote</a></li>
+                <li><a href="#">Ablauf</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Fakten</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+            <div class="items-center lg:flex hidden">
+                <a href="gesprach.html"
+                    class="p-button bg-pink-bold drop-shadow-button text-white font-bold text-sm rounded-30 tracking-[0.5px]">Erstgespräch
+                    vereinbaren</a>
+            </div>
+            <button type="button" class="lg:hidden ml-auto relative" id="hamburger">
+                <svg width="28" height="18" viewBox="0 0 28 18" fill="none" class="transition-opacity">
+                    <line x1="0.998047" y1="9" x2="27.6647" y2="9" stroke="#D9818E" stroke-width="2" />
+                    <line x1="0.998047" y1="1" x2="27.6647" y2="1" stroke="#D9818E" stroke-width="2" />
+                    <line x1="1" y1="17" x2="28" y2="17" stroke="#D9818E" stroke-width="2" />
+                </svg>
+                <svg width="29" height="29" viewBox="0 0 29 29" fill="none"
+                    class="opacity-0 transition-opacity absolute top-0 left-0">
+                    <line x1="0.53033" y1="1.46991" x2="27.53" y2="28.4696" stroke="#D9818E" stroke-width="1.5" />
+                    <line x1="1.20502" y1="28.4694" x2="28.2047" y2="1.46977" stroke="#D9818E" stroke-width="1.5" />
+                </svg>
+            </button>
+        </nav>
+    </div>
+    <div class="w-screen h-screen bg-white fixed top-0 opacity-0 pointer-events-none z-50 lg:hidden transition-opacity duration-300 ease-in-out"
+        id="mobile-menu">
         <div class="container px-6 mx-auto pt-24">
             <ul class="space-y-[1.375rem] text-[2rem] font-bold tracking-[-0.02em] leading-12 mb-[2.125rem]">
                 <li><a href="#" class="text-pink-bold">Home</a></li>
@@ -82,8 +89,11 @@
                 anerkannt, fühlst dich unwohl mit dir und deinem Körper?</h6>
         </header>
         <div class="pb-[51.28%] relative sm:mt-8 mt-4">
-            <video poster="assets/poster.jpg" class="absolute w-full h-full rounded-20 object-cover top-0 left-0" src="https://cdn.jsdelivr.net/gh/bilgicbe/stefaniejahn-files@main/landingpagevideo.mp4?raw=true" playsinline></video>
-            <svg width="129" height="129" viewBox="0 0 129 129" fill="none" xmlns="http://www.w3.org/2000/svg" id="play-button"
+            <video poster="assets/poster.jpg" class="absolute w-full h-full rounded-20 object-cover top-0 left-0"
+                src="https://cdn.jsdelivr.net/gh/bilgicbe/stefaniejahn-files@main/landingpagevideo.mp4?raw=true"
+                playsinline></video>
+            <svg width="129" height="129" viewBox="0 0 129 129" fill="none" xmlns="http://www.w3.org/2000/svg"
+                id="play-button"
                 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer lg:w-32 md:w-28 sm:w-20 w-[2.35rem]">
                 <circle cx="64.5" cy="64.5" r="64.5" fill="#D9818E" />
                 <path
@@ -92,7 +102,7 @@
             </svg>
         </div>
         <div class="sm:mt-[3.75rem] mt-4">
-            <a href="#"
+            <a href="gesprach.html"
                 class="bg-pink-bold drop-shadow-button py-4 rounded-30 flex justify-center w-full sm:max-w-[35rem] max-w-sm mx-auto">
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="align-middle inline sm:w-[26px] sm:h-[26px] w-[19px] h-[19px]">
@@ -160,30 +170,35 @@
                 <div class="font-bold text-center uppercase inline-block sm:pl-0 pl-2">
                     <span class="font-bold lg:text-[4.375rem] text-[2.5rem] leading-12 tracking-[1px] relative">
                         <span>25+</span>
-                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full"></div>
+                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full">
+                        </div>
                     </span>
                     <div class="leading-11 lg:leading-11 lg:text-lg text-sm lg:mt-3 mt-1">Jahre<br>erfahrung</div>
                 </div>
                 <div class="font-bold text-center uppercase inline-block sm:static absolute right-[40%] top-[6.625rem]">
                     <span class="font-bold lg:text-[4.375rem] text-[2.5rem] leading-12 tracking-[1px] relative">
                         <span>1k+</span>
-                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full"></div>
+                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full">
+                        </div>
                     </span>
                     <div class="leading-11 lg:leading-11 lg:text-lg text-sm lg:mt-3 mt-1">menschen<br>geholfen</div>
                 </div>
                 <div class="font-bold text-center uppercase inline-block sm:static absolute right-4 top-24">
                     <span class="font-bold lg:text-[4.375rem] text-[2.5rem] leading-12 tracking-[1px] relative">
                         <span>800</span>
-                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full"></div>
+                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full">
+                        </div>
                     </span>
                     <div class="leading-11 lg:leading-11 lg:text-lg text-sm lg:mt-3 mt-1">stunden<br>gecoacht</div>
                 </div>
                 <div class="font-bold text-center uppercase inline-block sm:static absolute right-[12%] -top-8">
                     <span class="font-bold lg:text-[4.375rem] text-[2.5rem] leading-12 tracking-[1px] relative">
                         <span>250</span>
-                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full"></div>
+                        <div class="lg:w-2 lg:h-2 w-[5px] h-[5px] bg-pink-bold absolute lg:bottom-4 bottom-2 left-full">
+                        </div>
                     </span>
-                    <div class="leading-11 lg:leading-11 lg:text-lg text-sm lg:mt-3 mt-1">TAUSEND € in <br>coachings investiert
+                    <div class="leading-11 lg:leading-11 lg:text-lg text-sm lg:mt-3 mt-1">TAUSEND € in <br>coachings
+                        investiert
                     </div>
                 </div>
             </div>
@@ -274,7 +289,7 @@
             </div>
         </div>
         <div class="lg:mt-[7.813rem] mt-[2.75rem]">
-            <a href="#"
+            <a href="gesprach.html"
                 class="bg-pink-bold drop-shadow-button py-4 rounded-30 flex justify-center w-full sm:max-w-[35rem] max-w-sm mx-auto">
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="align-middle inline sm:w-[26px] sm:h-[26px] w-[19px] h-[19px]">
@@ -337,9 +352,9 @@
     </section>
     <section class="lg:pt-[8.125rem] lg:pb-[4.688rem] pt-[2.188rem] pb-12 bg-pink-light">
         <div class="lg:flex max-w-[1536px] lgx:container lg:px-0 px-3 mx-auto">
-            <div
-                class="lg:w-1/2 relative">
-                <div class="grid grid-cols-3 lg:gap-[1.25rem] gap-4 font-bold lg:text-sm text-xs leading-11 text-white lg:absolute top-0 left-0">
+            <div class="lg:w-1/2 relative">
+                <div
+                    class="grid grid-cols-3 lg:gap-[1.25rem] gap-4 font-bold lg:text-sm text-xs leading-11 text-white lg:absolute top-0 left-0">
                     <div class="relative">
                         <img src="assets/3-1.jpg" width="210" height="520" class="w-full rounded-20">
                         <div
@@ -361,7 +376,8 @@
                         <div
                             class="absolute w-full left-0 lg:bottom-10 bottom-[1.25rem] lg:px-[1.125rem] px-[0.875rem] flex lg:flex-row flex-col justify-center items-center gap-2">
                             <img src="assets/3-3a.png" width="22" height="20" class="lg:w-[65px] lg:h-[59px]">
-                            <div class="lgx:h-[1.649rem] lgx:inline-flex items-center"><span>SICHTBARKEIT & ERFOLG</span>
+                            <div class="lgx:h-[1.649rem] lgx:inline-flex items-center"><span>SICHTBARKEIT &
+                                    ERFOLG</span>
                             </div>
                         </div>
                     </div>
@@ -371,12 +387,13 @@
                 <h2 class="font-eupharia lg:text-[5rem] text-[2.5rem] leading-09">Das ist mein<br>
                     <span class="text-pink-bold">Versprechen an dich!</span>
                 </h2>
-                <p class="lg:mt-12 mt-[1.25rem]">Mit mir erreichst du dein Ziel rasant, denn eine Zusammenarbeit mit mir ist kein
+                <p class="lg:mt-12 mt-[1.25rem]">Mit mir erreichst du dein Ziel rasant, denn eine Zusammenarbeit mit mir
+                    ist kein
                     08/15 Coaching, sondern wir sind 24/7 ein Team, bis du dein Ziel erreicht hast. Stell dir vor,
                     jemand nimmt dich an die Hand und zeigt dir Schritt für Schritt, wie du das bekommst, was du
                     wirklich möchtest.</p>
                 <div class="lg:mt-[3.25rem] mt-[1.875rem]">
-                    <a href="#"
+                    <a href="gesprach.html"
                         class="bg-pink-bold drop-shadow-button py-4 lg:px-10 lg:inline-flex flex rounded-30 justify-center sm:max-w-[35rem] max-w-sm mx-auto lg:mx-0">
                         <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
                             class="align-middle inline sm:w-[26px] sm:h-[26px] w-[19px] h-[19px] lg:hidden">
@@ -458,7 +475,7 @@
                         gleich ein unverbindliches Erstgespräch bei mir. Denn die meisten haben bereits in diesem
                         kostenlosen Gespräch die ersten großen Durchbrüche mit ihrem Thema.</p>
                     <br>
-                    <a href="#"
+                    <a href="gesprach.html"
                         class="font-bold uppercase text-pink-bold lg:text-[0.938rem] text-xs tracking-[1.5px] leading-12 inline-flex items-center">
                         <span>Hier gespräch verienbaren</span>
                         <svg width="10" height="12" viewBox="0 0 10 12" fill="none" class="inline ml-2">
@@ -484,7 +501,7 @@
                         Bild über mich zu machen, ob ich für dich wirklich die richtige Person bin, denn unsere
                         Zusammenarbeit sollte dir und auch mir Spass machen!</p>
                     <br>
-                    <a href="#"
+                    <a href="gesprach.html"
                         class="font-bold uppercase text-pink-bold lg:text-[0.938rem] text-xs tracking-[1.5px] leading-12 inline-flex items-center">
                         <span>Hier gespräch verienbaren</span>
                         <svg width="10" height="12" viewBox="0 0 10 12" fill="none" class="inline ml-2">
@@ -511,7 +528,7 @@
                         Zustandes verspüren und du fühlst dich, als wenn jemand den REST Button gedrückt
                         hat.<br>Blockaden sind wie weg gepustet.</p>
                     <br>
-                    <a href="#"
+                    <a href="gesprach.html"
                         class="font-bold uppercase text-pink-bold lg:text-[0.938rem] text-xs tracking-[1.5px] leading-12 inline-flex items-center">
                         <span>Hier gespräch verienbaren</span>
                         <svg width="10" height="12" viewBox="0 0 10 12" fill="none" class="inline ml-2">
@@ -539,7 +556,7 @@
                         welchen Selbstwert du hast.<br>Du bist bei dir angekommen und die Gesellschaft nimmt dich jetzt
                         mit ganz anderen Augen wahr.</p>
                     <br>
-                    <a href="#"
+                    <a href="gesprach.html"
                         class="font-bold uppercase text-pink-bold lg:text-[0.938rem] text-xs tracking-[1.5px] leading-12 inline-flex items-center">
                         <span>Hier gespräch verienbaren</span>
                         <svg width="10" height="12" viewBox="0 0 10 12" fill="none" class="inline ml-2">
@@ -554,7 +571,8 @@
         </div>
     </section>
     <section class="lg:pt-[7.875rem] lg:pb-[13.438rem] py-[4.375rem] relative">
-        <img src="assets/lines.png" class="absolute right-0 top-[3.625rem] -z-10 lg:block hidden" width="609" height="609" alt="">
+        <img src="assets/lines.png" class="absolute right-0 top-[3.625rem] -z-10 lg:block hidden" width="609"
+            height="609" alt="">
         <div class="container mx-auto px-6">
             <h1
                 class="font-bold md:text-[3.25rem] text-[1.875rem] text-center uppercase md:mb-[3.375rem] mb-[2.938rem] leading-11">
@@ -698,7 +716,7 @@
                 </div>
             </div>
             <div class="mt-[4.125rem]">
-                <a href="#"
+                <a href="gesprach.html"
                     class="bg-pink-bold drop-shadow-button py-4 rounded-30 flex justify-center w-full sm:max-w-[35rem] max-w-sm mx-auto">
                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="align-middle inline sm:w-[26px] sm:h-[26px] w-[19px] h-[19px]">
@@ -934,7 +952,7 @@
                         dir vor, jemand nimmt dich an die Hand und zeigt dir Schritt für Schritt, wie du das bekommst,
                         was du wirklich möchtest.</p>
                     <div class="lg:mt-[4.125rem] mt-[2.25rem]">
-                        <a href="#"
+                        <a href="gesprach.html"
                             class="bg-pink-bold drop-shadow-button py-4 rounded-30 flex justify-center w-full sm:max-w-[35rem] max-w-sm mx-auto">
                             <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -1033,13 +1051,31 @@
                     <div>All rights reserved</div>
                 </div>
                 <div class="lg:text-right font-bold space-y-2">
-                    <div><a href="#">Impressum</a></div>
-                    <div><a href="#">Datenschutz</a></div>
+                    <div><a href="Impressum.html">Impressum</a></div>
+                    <div><a href="datenschutz.html">Datenschutz</a></div>
                 </div>
             </div>
         </div>
     </footer>
+    <div id="cookies-eu-banner"
+        class="fixed hidden lg:left-[2.125rem] lg:bottom-[1.688rem] lg:w-[62rem] left-0 bottom-0 w-full bg-white drop-shadow-button lg:p-[2rem_1.875rem_1.938rem_5.688rem] p-12 lg:rounded-20 rounded-t-xl text-sm font-bold leading-17">
+        <div class="lg:w-[39.125rem] lgx:mb-4">
+            Wir nutzen Cookies zu unterschiedlichen Zwecken, unter anderem zur Analyse und für personalisierte
+            Marketing-Mitteilungen. Durch die weitere Nutzung der Website stimmen Sie der Verwendung zu und den
+            <a href="datenschutz.html" class="underline" id="cookies-eu-more">Cookie-Richtlinen</a> zu.
+        </div>
+        <div class="ml-auto pt-3">
+            <button id="cookies-eu-reject" class="w-[89px] text-center pt-[0.875rem] pb-[0.938rem] rounded-xl bg-[#EDEDED] drop-shadow-button tracking-[0.5px] mr-3">Ablehnen</button>
+            <button id="cookies-eu-accept" class="w-[89px] text-center pt-[0.875rem] pb-[0.938rem] rounded-xl bg-pink-bold text-white drop-shadow-button tracking-[0.5px]">Annehmen</button>
+        </div>
+    </div>
     <script src="assets/script.js" defer></script>
+    <script src="assets/cookies.js"></script>
+    <script defer>
+        new CookiesEuBanner(function () {
+            // Your code to launch when user accept cookies
+        });
+    </script>
 </body>
 
 </html>
