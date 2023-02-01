@@ -893,6 +893,10 @@ video {
   height: 0px
 }
 
+.h-\[1100px\] {
+  height: 1100px
+}
+
 .w-screen {
   width: 100vw
 }
@@ -1436,8 +1440,12 @@ video {
   line-height: 1.75rem
 }
 
-.text-\[2\.08rem\] {
-  font-size: 2.08rem
+.text-\[1\.563rem\] {
+  font-size: 1.563rem
+}
+
+.text-\[0\.875rem\] {
+  font-size: 0.875rem
 }
 
 .text-4xl {
@@ -1459,14 +1467,6 @@ video {
 
 .text-\[6\.25rem\] {
   font-size: 6.25rem
-}
-
-.text-\[1\.563rem\] {
-  font-size: 1.563rem
-}
-
-.text-\[0\.875rem\] {
-  font-size: 0.875rem
 }
 
 .font-bold {
@@ -1854,10 +1854,6 @@ video {
     margin-right: 0.75rem
   }
 
-  .lg\:-mt-\[10px\] {
-    margin-top: -10px
-  }
-
   .lg\:mt-\[6\.563rem\] {
     margin-top: 6.563rem
   }
@@ -1910,8 +1906,8 @@ video {
     margin-bottom: 3rem
   }
 
-  .lg\:mt-4 {
-    margin-top: 1rem
+  .lg\:-mt-\[35px\] {
+    margin-top: -35px
   }
 
   .lg\:block {
@@ -1944,6 +1940,10 @@ video {
 
   .lg\:h-10 {
     height: 2.5rem
+  }
+
+  .lg\:h-\[750px\] {
+    height: 750px
   }
 
   .lg\:min-h-\[50rem\] {
@@ -2289,6 +2289,11 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto
+  }
+
   .xl\:inline {
     display: inline
   }
